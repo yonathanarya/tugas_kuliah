@@ -1,0 +1,4 @@
+[console_scripts]
+turtlebot3_client = turtlebot3_actionserver.turtlebot3_client.main:main
+turtlebot3_server = turtlebot3_actionserver.turtlebot3_server.main:main
+

@@ -1,0 +1,48 @@
+[0.223s] Invoking command in '/home/yonathanarya/colcon_ws/src/turtlebot3_actionserver': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_actionserver build --build-base /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build install --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver --record /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/install.log --single-version-externally-managed
+[0.415s] running egg_info
+[0.416s] writing ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/PKG-INFO
+[0.416s] writing dependency_links to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/dependency_links.txt
+[0.416s] writing entry points to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/entry_points.txt
+[0.416s] writing requirements to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/requires.txt
+[0.416s] writing top-level names to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/top_level.txt
+[0.447s] reading manifest file '../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/SOURCES.txt'
+[0.448s] writing manifest file '../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/SOURCES.txt'
+[0.448s] running build
+[0.448s] running build_py
+[0.449s] creating /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server
+[0.449s] copying turtlebot3_actionserver/turtlebot3_server/__init__.py -> /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server
+[0.449s] copying turtlebot3_actionserver/turtlebot3_server/main.py -> /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server
+[0.449s] copying turtlebot3_actionserver/turtlebot3_server/turtlebot3_server.py -> /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server
+[0.449s] copying turtlebot3_actionserver/turtlebot3_server/turtlebot3_path.py -> /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server
+[0.449s] creating /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_client
+[0.449s] copying turtlebot3_actionserver/turtlebot3_client/__init__.py -> /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_client
+[0.449s] copying turtlebot3_actionserver/turtlebot3_client/turtlebot3_client.py -> /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_client
+[0.449s] copying turtlebot3_actionserver/turtlebot3_client/main.py -> /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_client
+[0.450s] running install
+[0.451s] running install_lib
+[0.452s] creating /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server
+[0.452s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server/__init__.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server
+[0.452s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server/main.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server
+[0.452s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server/turtlebot3_server.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server
+[0.452s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_server/turtlebot3_path.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server
+[0.452s] creating /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_client
+[0.452s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_client/__init__.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_client
+[0.452s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_client/turtlebot3_client.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_client
+[0.452s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build/lib/turtlebot3_actionserver/turtlebot3_client/main.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_client
+[0.453s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server/__init__.py to __init__.cpython-38.pyc
+[0.454s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server/main.py to main.cpython-38.pyc
+[0.454s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server/turtlebot3_server.py to turtlebot3_server.cpython-38.pyc
+[0.455s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_server/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[0.456s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_client/__init__.py to __init__.cpython-38.pyc
+[0.456s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_client/turtlebot3_client.py to turtlebot3_client.cpython-38.pyc
+[0.456s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver/turtlebot3_client/main.py to main.cpython-38.pyc
+[0.456s] running install_data
+[0.457s] copying package.xml -> /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/share/turtlebot3_actionserver
+[0.457s] running install_egg_info
+[0.459s] removing '/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver-1.0.0-py3.8.egg-info' (and everything under it)
+[0.459s] Copying ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver-1.0.0-py3.8.egg-info
+[0.460s] running install_scripts
+[0.475s] Installing turtlebot3_client script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+[0.476s] Installing turtlebot3_server script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+[0.476s] writing list of installed files to '/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/install.log'
+[0.498s] Invoked command in '/home/yonathanarya/colcon_ws/src/turtlebot3_actionserver' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_actionserver build --build-base /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build install --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver --record /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/install.log --single-version-externally-managed

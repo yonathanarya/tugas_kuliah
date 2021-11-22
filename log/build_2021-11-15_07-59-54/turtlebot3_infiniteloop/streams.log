@@ -1,0 +1,22 @@
+[2.510s] Invoking command in '/home/yonathanarya/colcon_ws/src/turtlebot3_infiniteloop': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_infiniteloop build --build-base /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build install --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop --record /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/install.log --single-version-externally-managed
+[4.645s] running egg_info
+[4.653s] writing ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/PKG-INFO
+[4.655s] writing dependency_links to ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/dependency_links.txt
+[4.659s] writing entry points to ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/entry_points.txt
+[4.660s] writing requirements to ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/requires.txt
+[4.662s] writing top-level names to ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/top_level.txt
+[4.968s] reading manifest file '../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/SOURCES.txt'
+[4.980s] writing manifest file '../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/SOURCES.txt'
+[4.981s] running build
+[4.983s] running build_py
+[4.984s] running install
+[4.989s] running install_lib
+[5.005s] running install_data
+[5.008s] running install_egg_info
+[5.027s] removing '/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop-1.0.0-py3.8.egg-info' (and everything under it)
+[5.030s] Copying ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop-1.0.0-py3.8.egg-info
+[5.046s] running install_scripts
+[5.213s] Installing force_stop script to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/turtlebot3_infiniteloop
+[5.213s] Installing infinite_loop script to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/turtlebot3_infiniteloop
+[5.216s] writing list of installed files to '/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/install.log'
+[5.433s] Invoked command in '/home/yonathanarya/colcon_ws/src/turtlebot3_infiniteloop' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_infiniteloop build --build-base /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build install --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop --record /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/install.log --single-version-externally-managed

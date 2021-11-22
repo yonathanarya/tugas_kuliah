@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/top_level.txt
+reading manifest file '../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver-1.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver-1.0.0-py3.8.egg-info
+running install_scripts
+Installing turtlebot3_patrol_client script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+Installing turtlebot3_patrol_server script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+writing list of installed files to '/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/install.log'

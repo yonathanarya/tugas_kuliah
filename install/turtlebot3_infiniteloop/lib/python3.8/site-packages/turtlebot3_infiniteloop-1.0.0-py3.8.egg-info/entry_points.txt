@@ -1,0 +1,4 @@
+[console_scripts]
+force_stop = turtlebot3_infiniteloop.force_stop:main
+infinite_loop = turtlebot3_infiniteloop.infinite_loop:main
+

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtlebot3_act_interfaces/action/Task.action
+// generated code does not contain a copyright notice
+
+
+module turtlebot3_act_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      " Goal")
+    struct Task_Goal {
+      float duration;
+
+      uint8 direction;
+    };
+    struct Task_Result {
+      @verbatim (language="comment", text=
+        " Result")
+      boolean success;
+    };
+    struct Task_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback")
+      float left_time;
+    };
+  };
+};

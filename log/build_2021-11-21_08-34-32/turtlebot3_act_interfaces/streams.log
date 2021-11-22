@@ -1,0 +1,19 @@
+[0.025s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces -- -j8 -l8
+[0.069s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.108s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.367s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.620s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.620s]   rosidl_generate_interfaces() the passed file 'action/Task.action' doesn't
+[0.620s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.620s]   '/home/yonathanarya/colcon_ws/src/turtlebot3_act_interfaces'
+[0.620s] Call Stack (most recent call first):
+[0.620s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[0.620s] 
+[0.620s] 
+[0.621s] -- Configuring incomplete, errors occurred!
+[0.621s] See also "/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces/CMakeFiles/CMakeOutput.log".
+[0.627s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.632s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces -- -j8 -l8

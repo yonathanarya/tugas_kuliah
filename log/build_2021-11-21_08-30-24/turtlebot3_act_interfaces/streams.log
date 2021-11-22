@@ -1,0 +1,73 @@
+[0.100s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake /home/yonathanarya/colcon_ws/src/turtlebot3_act_interfaces -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces
+[1.696s] -- The C compiler identification is GNU 9.3.0
+[1.696s] -- The CXX compiler identification is GNU 9.3.0
+[1.697s] -- Check for working C compiler: /usr/bin/cc
+[1.697s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.697s] -- Detecting C compiler ABI info
+[1.697s] -- Detecting C compiler ABI info - done
+[1.698s] -- Detecting C compile features
+[1.698s] -- Detecting C compile features - done
+[1.698s] -- Check for working CXX compiler: /usr/bin/c++
+[1.698s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.698s] -- Detecting CXX compiler ABI info
+[1.698s] -- Detecting CXX compiler ABI info - done
+[1.699s] -- Detecting CXX compile features
+[1.700s] -- Detecting CXX compile features - done
+[1.700s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.700s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.701s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.701s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.734s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.312s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.473s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.104s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.494s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[3.494s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.495s]   turtlebot3_act_interfaces --arguments-file
+[3.495s]   /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces/rosidl_adapter__arguments__turtlebot3_act_interfaces.json
+[3.495s]   --output-dir
+[3.495s]   /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces/rosidl_adapter/turtlebot3_act_interfaces
+[3.496s]   --output-file
+[3.496s]   /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces/rosidl_adapter/turtlebot3_act_interfaces.idls)
+[3.496s]   returned error code 1:
+[3.496s] 
+[3.497s]   Error processing 'int direction' of 'turtlebot3_act_interfaces/Task_Goal':
+[3.497s]   ''int' is an invalid message name.  It should have the pattern
+[3.497s]   '^[A-Z][A-Za-z0-9]*$''
+[3.497s] 
+[3.498s]   Traceback (most recent call last):
+[3.498s] 
+[3.498s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[3.498s]       return _run_code(code, main_globals, None,
+[3.498s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[3.499s]       exec(code, run_globals)
+[3.499s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.499s]       sys.exit(main())
+[3.500s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.500s]       abs_idl_file = convert_to_idl(
+[3.500s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[3.500s]       return convert_action_to_idl(
+[3.501s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[3.501s]       action = parse_action_string(package_name, input_file.stem, content)
+[3.501s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 892, in parse_action_string
+[3.501s]       goal_message = parse_message_string(
+[3.501s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[3.501s]       Type(type_string, context_package_name=pkg_name),
+[3.502s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[3.502s]       super(Type, self).__init__(
+[3.502s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[3.502s]       raise InvalidResourceName(
+[3.502s] 
+[3.502s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[3.502s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[3.503s] 
+[3.503s] Call Stack (most recent call first):
+[3.503s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.503s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[3.503s] 
+[3.503s] 
+[3.503s] -- Configuring incomplete, errors occurred!
+[3.503s] See also "/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces/CMakeFiles/CMakeOutput.log".
+[3.512s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake /home/yonathanarya/colcon_ws/src/turtlebot3_act_interfaces -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces
