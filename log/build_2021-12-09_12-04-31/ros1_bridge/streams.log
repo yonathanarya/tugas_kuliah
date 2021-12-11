@@ -1,0 +1,271 @@
+[0.019s] Invoking command in '/home/yonathanarya/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node:/home/yonathanarya/colcon_ws/install/raspimouse_description LD_LIBRARY_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/yonathanarya/colcon_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/ros1_bridge
+[0.038s] -- Found rmw: 1.0.3 (/opt/ros/foxy/share/rmw/cmake)
+[0.069s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.298s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.326s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.348s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.529s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.531s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.526s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.527s] -- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[1.688s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.722s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.724s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.724s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.724s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.763s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.767s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.767s] -- Configured cppcheck include dirs: 
+[1.767s] -- Configured cppcheck exclude dirs and/or files: 
+[1.770s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.770s] -- Configured cpplint exclude dirs and/or files: 
+[1.771s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.772s] -- Added test 'lint_cmake' to check CMake code style
+[1.773s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.776s] -- Added test 'uncrustify' to check C / C++ code style
+[1.776s] -- Configured uncrustify additional arguments: 
+[1.777s] -- Added test 'xmllint' to check XML markup files
+[1.914s] -- Found turtlebot3_act_interfaces: 1.0.0 (/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake)
+[1.914s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[1.986s] -- Found action_tutorials_interfaces: 0.9.3 (/opt/ros/foxy/share/action_tutorials_interfaces/cmake)
+[2.031s] -- Found actionlib_msgs: 2.0.4 (/opt/ros/foxy/share/actionlib_msgs/cmake)
+[2.031s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[2.161s] -- Found cartographer_ros_msgs: 1.0.9003 (/opt/ros/foxy/share/cartographer_ros_msgs/cmake)
+[2.198s] -- Found composition_interfaces: 1.0.0 (/opt/ros/foxy/share/composition_interfaces/cmake)
+[2.633s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[2.658s] -- Found controller_manager_msgs: 0.8.1 (/opt/ros/foxy/share/controller_manager_msgs/cmake)
+[2.659s] -- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[3.073s] -- Found dwb_msgs: 0.4.7 (/opt/ros/foxy/share/dwb_msgs/cmake)
+[3.154s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[3.328s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[3.329s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.331s] -- Found libstatistics_collector: 1.0.1 (/opt/ros/foxy/share/libstatistics_collector/cmake)
+[3.343s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[3.353s] -- Found logging_demo: 0.9.3 (/opt/ros/foxy/share/logging_demo/cmake)
+[3.654s] -- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)
+[3.941s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[3.942s] -- Found nav_2d_msgs: 0.4.7 (/opt/ros/foxy/share/nav_2d_msgs/cmake)
+[3.942s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.095s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[4.112s] -- Found pendulum_msgs: 0.9.3 (/opt/ros/foxy/share/pendulum_msgs/cmake)
+[4.112s] -- Found rcl_interfaces: 1.0.0 (/opt/ros/foxy/share/rcl_interfaces/cmake)
+[4.127s] -- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+[4.127s] -- Found rosgraph_msgs: 1.0.0 (/opt/ros/foxy/share/rosgraph_msgs/cmake)
+[4.127s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.201s] -- Found shape_msgs: 2.0.4 (/opt/ros/foxy/share/shape_msgs/cmake)
+[4.932s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[5.044s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[5.046s] -- Found OGRE
+[5.047s] --   static     : OFF
+[5.047s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[5.047s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.047s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[5.047s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[5.047s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[5.047s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.048s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[5.048s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.048s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.048s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.048s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.098s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[5.098s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[5.120s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.201s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[5.399s] -- Found slam_toolbox: 2.4.1 (/opt/ros/foxy/share/slam_toolbox/cmake)
+[5.399s] -- Found statistics_msgs: 1.0.0 (/opt/ros/foxy/share/statistics_msgs/cmake)
+[5.400s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[5.401s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[5.542s] -- Found stereo_msgs: 2.0.4 (/opt/ros/foxy/share/stereo_msgs/cmake)
+[5.623s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[5.624s] -- Found tf2_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[5.624s] -- Found trajectory_msgs: 2.0.4 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[5.746s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[5.807s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[5.808s] -- Found unique_identifier_msgs: 2.1.3 (/opt/ros/foxy/share/unique_identifier_msgs/cmake)
+[5.808s] -- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[6.321s] -- Configuring done
+[6.398s] CMake Warning at CMakeLists.txt:145 (add_executable):
+[6.398s]   Cannot generate a safe runtime search path for target static_bridge because
+[6.398s]   files in some directories may conflict with libraries in implicit
+[6.398s]   directories:
+[6.398s] 
+[6.398s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.399s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.399s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.399s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.399s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.399s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.399s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.399s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.399s] 
+[6.399s]   Some of these libraries may not be found correctly.
+[6.399s] Call Stack (most recent call first):
+[6.400s]   CMakeLists.txt:191 (custom_executable)
+[6.400s] 
+[6.400s] 
+[6.400s] CMake Warning at CMakeLists.txt:145 (add_executable):
+[6.400s]   Cannot generate a safe runtime search path for target static_bridge because
+[6.400s]   there is a cycle in the constraint graph:
+[6.400s] 
+[6.400s]     dir 0 is [/opt/ros/noetic/lib]
+[6.400s]       dir 3 must precede it due to runtime library [liburdf.so]
+[6.401s]     dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+[6.401s]     dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+[6.401s]     dir 3 is [/opt/ros/foxy/lib]
+[6.401s]       dir 0 must precede it due to runtime library [liblayers.so]
+[6.401s]     dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[6.401s]     dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[6.401s]     dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[6.401s] 
+[6.401s]   Some of these libraries may not be found correctly.
+[6.401s] Call Stack (most recent call first):
+[6.402s]   CMakeLists.txt:191 (custom_executable)
+[6.402s] 
+[6.402s] 
+[6.534s] CMake Warning at CMakeLists.txt:174 (add_library):
+[6.534s]   Cannot generate a safe runtime search path for target ros1_bridge because
+[6.534s]   files in some directories may conflict with libraries in implicit
+[6.535s]   directories:
+[6.535s] 
+[6.535s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.535s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.535s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.535s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.535s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.535s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.535s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.535s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.535s] 
+[6.536s]   Some of these libraries may not be found correctly.
+[6.536s] 
+[6.536s] 
+[6.536s] CMake Warning at CMakeLists.txt:174 (add_library):
+[6.536s]   Cannot generate a safe runtime search path for target ros1_bridge because
+[6.536s]   there is a cycle in the constraint graph:
+[6.536s] 
+[6.536s]     dir 0 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+[6.536s]     dir 1 is [/opt/ros/foxy/lib]
+[6.536s]       dir 2 must precede it due to runtime library [liblayers.so]
+[6.536s]     dir 2 is [/opt/ros/noetic/lib]
+[6.537s]       dir 1 must precede it due to runtime library [liburdf.so]
+[6.537s]     dir 3 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[6.537s]     dir 4 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[6.537s]     dir 5 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[6.537s] 
+[6.537s]   Some of these libraries may not be found correctly.
+[6.537s] 
+[6.537s] 
+[6.631s] CMake Warning at CMakeLists.txt:145 (add_executable):
+[6.631s]   Cannot generate a safe runtime search path for target parameter_bridge
+[6.631s]   because files in some directories may conflict with libraries in implicit
+[6.631s]   directories:
+[6.631s] 
+[6.631s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.631s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.632s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.632s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.632s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.632s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.632s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.632s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.632s] 
+[6.632s]   Some of these libraries may not be found correctly.
+[6.632s] Call Stack (most recent call first):
+[6.632s]   CMakeLists.txt:198 (custom_executable)
+[6.632s] 
+[6.633s] 
+[6.633s] CMake Warning at CMakeLists.txt:145 (add_executable):
+[6.633s]   Cannot generate a safe runtime search path for target parameter_bridge
+[6.633s]   because there is a cycle in the constraint graph:
+[6.633s] 
+[6.633s]     dir 0 is [/opt/ros/noetic/lib]
+[6.633s]       dir 3 must precede it due to runtime library [liburdf.so]
+[6.633s]     dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+[6.633s]     dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+[6.633s]     dir 3 is [/opt/ros/foxy/lib]
+[6.633s]       dir 0 must precede it due to runtime library [liblayers.so]
+[6.634s]     dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[6.634s]     dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[6.634s]     dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[6.634s] 
+[6.634s]   Some of these libraries may not be found correctly.
+[6.634s] Call Stack (most recent call first):
+[6.634s]   CMakeLists.txt:198 (custom_executable)
+[6.634s] 
+[6.634s] 
+[6.668s] CMake Warning at CMakeLists.txt:145 (add_executable):
+[6.668s]   Cannot generate a safe runtime search path for target dynamic_bridge
+[6.668s]   because files in some directories may conflict with libraries in implicit
+[6.669s]   directories:
+[6.669s] 
+[6.669s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.669s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.669s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.669s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.669s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.669s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.669s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.669s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[6.669s] 
+[6.669s]   Some of these libraries may not be found correctly.
+[6.669s] Call Stack (most recent call first):
+[6.670s]   CMakeLists.txt:205 (custom_executable)
+[6.670s] 
+[6.670s] 
+[6.670s] CMake Warning at CMakeLists.txt:145 (add_executable):
+[6.670s]   Cannot generate a safe runtime search path for target dynamic_bridge
+[6.670s]   because there is a cycle in the constraint graph:
+[6.670s] 
+[6.670s]     dir 0 is [/opt/ros/noetic/lib]
+[6.670s]       dir 3 must precede it due to runtime library [liburdf.so]
+[6.670s]     dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+[6.671s]     dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+[6.671s]     dir 3 is [/opt/ros/foxy/lib]
+[6.671s]       dir 0 must precede it due to runtime library [liblayers.so]
+[6.671s]     dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[6.671s]     dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[6.671s]     dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[6.671s] 
+[6.671s]   Some of these libraries may not be found correctly.
+[6.671s] Call Stack (most recent call first):
+[6.671s]   CMakeLists.txt:205 (custom_executable)
+[6.671s] 
+[6.672s] 
+[6.759s] -- Generating done
+[6.765s] -- Build files have been written to: /home/yonathanarya/colcon_ws/build/ros1_bridge
+[6.782s] Invoked command in '/home/yonathanarya/colcon_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node:/home/yonathanarya/colcon_ws/install/raspimouse_description LD_LIBRARY_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/yonathanarya/colcon_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/ros1_bridge
+[6.787s] Invoking command in '/home/yonathanarya/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node:/home/yonathanarya/colcon_ws/install/raspimouse_description LD_LIBRARY_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/ros1_bridge -- -j8 -l8
+[6.953s] [  1%] Built target test_ros1_server
+[6.954s] [  1%] Built target test_ros1_client
+[6.972s] [  1%] Built target simple_bridge_2_to_1
+[6.977s] [  1%] Built target test_ros2_client_cpp
+[6.978s] [  2%] Built target test_ros2_server_cpp
+[6.980s] [  3%] Built target simple_bridge_1_to_2
+[6.984s] [  3%] Built target simple_bridge
+[8.363s] [ 99%] Built target ros1_bridge
+[8.421s] [ 99%] [32m[1mLinking CXX executable parameter_bridge[0m
+[8.421s] [100%] [32m[1mLinking CXX executable static_bridge[0m
+[8.422s] [100%] [32m[1mLinking CXX executable dynamic_bridge[0m
+[91.686s] /usr/bin/ld: warning: libconsole_bridge.so.0.4, needed by /opt/ros/noetic/lib/libcpp_common.so, may conflict with libconsole_bridge.so.1.0
+[91.686s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+[91.686s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+[91.686s] collect2: error: ld returned 1 exit status
+[91.688s] make[2]: *** [CMakeFiles/dynamic_bridge.dir/build.make:448: dynamic_bridge] Error 1
+[91.689s] make[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/dynamic_bridge.dir/all] Error 2
+[91.689s] make[1]: *** Waiting for unfinished jobs....
+[92.087s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+[92.088s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+[92.088s] collect2: error: ld returned 1 exit status
+[92.090s] make[2]: *** [CMakeFiles/parameter_bridge.dir/build.make:448: parameter_bridge] Error 1
+[92.090s] make[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/parameter_bridge.dir/all] Error 2
+[92.105s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+[92.106s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+[92.106s] collect2: error: ld returned 1 exit status
+[92.109s] make[2]: *** [CMakeFiles/static_bridge.dir/build.make:448: static_bridge] Error 1
+[92.110s] make[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/static_bridge.dir/all] Error 2
+[92.110s] make: *** [Makefile:141: all] Error 2
+[92.122s] Invoked command in '/home/yonathanarya/colcon_ws/build/ros1_bridge' returned '2': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node:/home/yonathanarya/colcon_ws/install/raspimouse_description LD_LIBRARY_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/ros1_bridge -- -j8 -l8

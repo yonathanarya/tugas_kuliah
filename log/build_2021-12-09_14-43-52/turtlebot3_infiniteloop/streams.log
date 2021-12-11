@@ -1,0 +1,31 @@
+[1.590s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop --uninstall --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build
+[2.157s] running develop
+[2.570s] Removing /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3-infiniteloop.egg-link (link to .)
+[2.614s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop --uninstall --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build
+[2.615s] Invoking command in '/home/yonathanarya/colcon_ws/src/turtlebot3_infiniteloop': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_infiniteloop build --build-base /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build install --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop --record /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/install.log --single-version-externally-managed
+[2.945s] running egg_info
+[2.946s] writing ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/PKG-INFO
+[2.946s] writing dependency_links to ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/dependency_links.txt
+[2.946s] writing entry points to ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/entry_points.txt
+[2.946s] writing requirements to ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/requires.txt
+[2.946s] writing top-level names to ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/top_level.txt
+[2.984s] reading manifest file '../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/SOURCES.txt'
+[2.985s] writing manifest file '../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info/SOURCES.txt'
+[2.985s] running build
+[2.985s] running build_py
+[2.985s] running install
+[2.986s] running install_lib
+[2.987s] creating /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop
+[2.988s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build/lib/turtlebot3_infiniteloop/__init__.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop
+[2.988s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build/lib/turtlebot3_infiniteloop/force_stop.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop
+[2.988s] copying /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build/lib/turtlebot3_infiniteloop/infinite_loop.py -> /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop
+[2.989s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop/__init__.py to __init__.cpython-38.pyc
+[2.990s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop/force_stop.py to force_stop.cpython-38.pyc
+[2.990s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop/infinite_loop.py to infinite_loop.cpython-38.pyc
+[2.991s] running install_data
+[2.992s] running install_egg_info
+[2.995s] Copying ../../build/turtlebot3_infiniteloop/turtlebot3_infiniteloop.egg-info to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3_infiniteloop-1.0.0-py3.8.egg-info
+[2.996s] running install_scripts
+[3.014s] Installing force_stop script to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/turtlebot3_infiniteloop
+[3.014s] Installing infinite_loop script to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/turtlebot3_infiniteloop
+[3.014s] writing list of installed files to '/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/install.log'

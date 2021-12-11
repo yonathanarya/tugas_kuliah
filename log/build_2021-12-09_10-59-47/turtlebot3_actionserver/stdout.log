@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing turtlebot3_actionserver.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_actionserver.egg-info/dependency_links.txt
+writing entry points to turtlebot3_actionserver.egg-info/entry_points.txt
+writing requirements to turtlebot3_actionserver.egg-info/requires.txt
+writing top-level names to turtlebot3_actionserver.egg-info/top_level.txt
+reading manifest file 'turtlebot3_actionserver.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_actionserver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/site.py
+Creating /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3-actionserver.egg-link (link to .)
+Installing turtlebot3_client script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+Installing turtlebot3_server script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+
+Installed /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver
+running install_data

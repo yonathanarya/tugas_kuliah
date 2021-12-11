@@ -1,0 +1,18 @@
+[0.826s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_action': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_action --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_action/build --no-deps install_data --install-dir /home/yonathanarya/colcon_ws/install/turtlebot3_action
+[1.259s] running develop
+[1.428s] running egg_info
+[1.428s] writing turtlebot3_action.egg-info/PKG-INFO
+[1.428s] writing dependency_links to turtlebot3_action.egg-info/dependency_links.txt
+[1.428s] writing entry points to turtlebot3_action.egg-info/entry_points.txt
+[1.429s] writing requirements to turtlebot3_action.egg-info/requires.txt
+[1.429s] writing top-level names to turtlebot3_action.egg-info/top_level.txt
+[1.466s] reading manifest file 'turtlebot3_action.egg-info/SOURCES.txt'
+[1.466s] writing manifest file 'turtlebot3_action.egg-info/SOURCES.txt'
+[1.504s] running build_ext
+[1.505s] Creating /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages/turtlebot3-action.egg-link (link to .)
+[1.506s] Installing turtlebot3_patrol_client script to /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/turtlebot3_action
+[1.506s] Installing turtlebot3_patrol_server script to /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/turtlebot3_action
+[1.506s] 
+[1.506s] Installed /home/yonathanarya/colcon_ws/build/turtlebot3_action
+[1.506s] running install_data
+[1.539s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_action' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_action --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_action/build --no-deps install_data --install-dir /home/yonathanarya/colcon_ws/install/turtlebot3_action

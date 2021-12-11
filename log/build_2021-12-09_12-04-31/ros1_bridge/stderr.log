@@ -1,0 +1,165 @@
+CMake Warning at CMakeLists.txt:145 (add_executable):
+  Cannot generate a safe runtime search path for target static_bridge because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:191 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:145 (add_executable):
+  Cannot generate a safe runtime search path for target static_bridge because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 3 must precede it due to runtime library [liburdf.so]
+    dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+    dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+    dir 3 is [/opt/ros/foxy/lib]
+      dir 0 must precede it due to runtime library [liblayers.so]
+    dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+    dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:191 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:174 (add_library):
+  Cannot generate a safe runtime search path for target ros1_bridge because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:174 (add_library):
+  Cannot generate a safe runtime search path for target ros1_bridge because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+    dir 1 is [/opt/ros/foxy/lib]
+      dir 2 must precede it due to runtime library [liblayers.so]
+    dir 2 is [/opt/ros/noetic/lib]
+      dir 1 must precede it due to runtime library [liburdf.so]
+    dir 3 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 4 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+    dir 5 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:145 (add_executable):
+  Cannot generate a safe runtime search path for target parameter_bridge
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:198 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:145 (add_executable):
+  Cannot generate a safe runtime search path for target parameter_bridge
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 3 must precede it due to runtime library [liburdf.so]
+    dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+    dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+    dir 3 is [/opt/ros/foxy/lib]
+      dir 0 must precede it due to runtime library [liblayers.so]
+    dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+    dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:198 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:145 (add_executable):
+  Cannot generate a safe runtime search path for target dynamic_bridge
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+    runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib/x86_64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:205 (custom_executable)
+
+
+CMake Warning at CMakeLists.txt:145 (add_executable):
+  Cannot generate a safe runtime search path for target dynamic_bridge
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/noetic/lib]
+      dir 3 must precede it due to runtime library [liburdf.so]
+    dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+    dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+    dir 3 is [/opt/ros/foxy/lib]
+      dir 0 must precede it due to runtime library [liblayers.so]
+    dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+    dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+    dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  CMakeLists.txt:205 (custom_executable)
+
+
+/usr/bin/ld: warning: libconsole_bridge.so.0.4, needed by /opt/ros/noetic/lib/libcpp_common.so, may conflict with libconsole_bridge.so.1.0
+/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/dynamic_bridge.dir/build.make:448: dynamic_bridge] Error 1
+make[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/dynamic_bridge.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/parameter_bridge.dir/build.make:448: parameter_bridge] Error 1
+make[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/parameter_bridge.dir/all] Error 2
+/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/static_bridge.dir/build.make:448: static_bridge] Error 1
+make[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/static_bridge.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

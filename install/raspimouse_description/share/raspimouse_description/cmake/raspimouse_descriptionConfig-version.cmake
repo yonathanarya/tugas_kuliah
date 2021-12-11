@@ -1,0 +1,1 @@
+/home/yonathanarya/colcon_ws/build/raspimouse_description/ament_cmake_core/raspimouse_descriptionConfig-version.cmake

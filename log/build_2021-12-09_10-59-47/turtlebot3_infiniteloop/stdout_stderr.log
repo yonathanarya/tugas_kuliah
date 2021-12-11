@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing turtlebot3_infiniteloop.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_infiniteloop.egg-info/dependency_links.txt
+writing entry points to turtlebot3_infiniteloop.egg-info/entry_points.txt
+writing requirements to turtlebot3_infiniteloop.egg-info/requires.txt
+writing top-level names to turtlebot3_infiniteloop.egg-info/top_level.txt
+reading manifest file 'turtlebot3_infiniteloop.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_infiniteloop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/site.py
+Creating /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3-infiniteloop.egg-link (link to .)
+Installing force_stop script to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/turtlebot3_infiniteloop
+Installing infinite_loop script to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/turtlebot3_infiniteloop
+
+Installed /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop
+running install_data

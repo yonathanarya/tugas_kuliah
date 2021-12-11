@@ -1,0 +1,19 @@
+[1.318s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build --no-deps install_data --install-dir /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop
+[1.814s] running develop
+[2.125s] running egg_info
+[2.125s] writing turtlebot3_infiniteloop.egg-info/PKG-INFO
+[2.126s] writing dependency_links to turtlebot3_infiniteloop.egg-info/dependency_links.txt
+[2.126s] writing entry points to turtlebot3_infiniteloop.egg-info/entry_points.txt
+[2.126s] writing requirements to turtlebot3_infiniteloop.egg-info/requires.txt
+[2.127s] writing top-level names to turtlebot3_infiniteloop.egg-info/top_level.txt
+[2.207s] reading manifest file 'turtlebot3_infiniteloop.egg-info/SOURCES.txt'
+[2.209s] writing manifest file 'turtlebot3_infiniteloop.egg-info/SOURCES.txt'
+[2.291s] running build_ext
+[2.291s] Creating /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/site.py
+[2.296s] Creating /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages/turtlebot3-infiniteloop.egg-link (link to .)
+[2.298s] Installing force_stop script to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/turtlebot3_infiniteloop
+[2.298s] Installing infinite_loop script to /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/turtlebot3_infiniteloop
+[2.298s] 
+[2.299s] Installed /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop
+[2.299s] running install_data
+[2.397s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop/build --no-deps install_data --install-dir /home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop

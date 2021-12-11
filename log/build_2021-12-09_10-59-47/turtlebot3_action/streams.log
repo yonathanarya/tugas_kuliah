@@ -1,0 +1,19 @@
+[1.317s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_action': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_action --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_action/build --no-deps install_data --install-dir /home/yonathanarya/colcon_ws/install/turtlebot3_action
+[1.820s] running develop
+[2.101s] running egg_info
+[2.101s] writing turtlebot3_action.egg-info/PKG-INFO
+[2.102s] writing dependency_links to turtlebot3_action.egg-info/dependency_links.txt
+[2.103s] writing entry points to turtlebot3_action.egg-info/entry_points.txt
+[2.103s] writing requirements to turtlebot3_action.egg-info/requires.txt
+[2.104s] writing top-level names to turtlebot3_action.egg-info/top_level.txt
+[2.195s] reading manifest file 'turtlebot3_action.egg-info/SOURCES.txt'
+[2.197s] writing manifest file 'turtlebot3_action.egg-info/SOURCES.txt'
+[2.295s] running build_ext
+[2.295s] Creating /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages/site.py
+[2.300s] Creating /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages/turtlebot3-action.egg-link (link to .)
+[2.302s] Installing turtlebot3_patrol_client script to /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/turtlebot3_action
+[2.302s] Installing turtlebot3_patrol_server script to /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/turtlebot3_action
+[2.303s] 
+[2.303s] Installed /home/yonathanarya/colcon_ws/build/turtlebot3_action
+[2.303s] running install_data
+[2.381s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_action' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_action --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_action/build --no-deps install_data --install-dir /home/yonathanarya/colcon_ws/install/turtlebot3_action

@@ -1,0 +1,19 @@
+[1.315s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build --no-deps install_data --install-dir /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver
+[1.838s] running develop
+[2.168s] running egg_info
+[2.169s] writing turtlebot3_actionserver.egg-info/PKG-INFO
+[2.169s] writing dependency_links to turtlebot3_actionserver.egg-info/dependency_links.txt
+[2.170s] writing entry points to turtlebot3_actionserver.egg-info/entry_points.txt
+[2.170s] writing requirements to turtlebot3_actionserver.egg-info/requires.txt
+[2.170s] writing top-level names to turtlebot3_actionserver.egg-info/top_level.txt
+[2.250s] reading manifest file 'turtlebot3_actionserver.egg-info/SOURCES.txt'
+[2.252s] writing manifest file 'turtlebot3_actionserver.egg-info/SOURCES.txt'
+[2.338s] running build_ext
+[2.338s] Creating /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/site.py
+[2.343s] Creating /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3-actionserver.egg-link (link to .)
+[2.344s] Installing turtlebot3_client script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+[2.345s] Installing turtlebot3_server script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+[2.345s] 
+[2.346s] Installed /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver
+[2.346s] running install_data
+[2.426s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver --editable --build-directory /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build --no-deps install_data --install-dir /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver

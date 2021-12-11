@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yonathanarya/colcon_ws/build/raspimouse_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//launch/config/urdf.rviz
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//launch/display.launch.py
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_TopPlate.dae
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body-TopPlate-URG.dae
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body-TopPlate.dae
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body.dae
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/sensor/URG.dae
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/sensor/URG_center.dae
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/wheel/RasPiMouse_wheel.dae
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_TopPlate.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_base-metric.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_sensor-metric.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_wheel-metric.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_wheel-mm.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/URG-04LX-UG01.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_black.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_gray.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_green.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_red.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_wheel_black.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_wheel_gray.stl
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/body/body.urdf.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/common.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/raspimouse.urdf.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lightsens.gazebo.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lightsens.urdf.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lrf.gazebo.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lrf.urdf.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/wheel/diffdrive.gazebo.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/wheel/wheel.urdf.xacro
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/package_run_dependencies/raspimouse_description
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/parent_prefix_path/raspimouse_description
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/path.sh
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/path.dsv
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.bash
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.sh
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.zsh
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.dsv
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/package.dsv
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/packages/raspimouse_description
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/cmake/raspimouse_descriptionConfig.cmake
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/cmake/raspimouse_descriptionConfig-version.cmake
+-- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/package.xml

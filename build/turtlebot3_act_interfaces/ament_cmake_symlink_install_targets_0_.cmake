@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces/libturtlebot3_act_interfaces__rosidl_typesupport_fastrtps_c.so" "TARGETS" "turtlebot3_act_interfaces__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

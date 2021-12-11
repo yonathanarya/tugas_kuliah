@@ -1,0 +1,123 @@
+[0.056s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake /home/yonathanarya/colcon_ws/src/turtlebot3_act_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces
+[1.321s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.322s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.322s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.322s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.322s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.323s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.323s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.323s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.607s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.607s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.644s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.644s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.644s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.693s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.719s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.722s] -- Added test 'lint_cmake' to check CMake code style
+[1.724s] -- Added test 'xmllint' to check XML markup files
+[1.735s] -- Configuring done
+[1.859s] -- Generating done
+[1.867s] -- Build files have been written to: /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces
+[1.882s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake /home/yonathanarya/colcon_ws/src/turtlebot3_act_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces
+[1.888s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces -- -j8 -l8
+[2.020s] [  3%] Built target turtlebot3_act_interfaces__cpp
+[2.036s] [ 12%] Built target turtlebot3_act_interfaces__rosidl_generator_c
+[2.110s] [ 22%] Built target turtlebot3_act_interfaces__rosidl_typesupport_cpp
+[2.118s] [ 32%] Built target turtlebot3_act_interfaces__rosidl_typesupport_introspection_cpp
+[2.135s] [ 35%] [32m[1mLinking CXX shared library libturtlebot3_act_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.135s] [ 45%] Built target turtlebot3_act_interfaces__rosidl_typesupport_introspection_c
+[2.144s] [ 54%] Built target turtlebot3_act_interfaces__rosidl_typesupport_c
+[2.329s] [ 61%] Built target turtlebot3_act_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.390s] [ 64%] [32m[1mLinking CXX shared library libturtlebot3_act_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.521s] [ 70%] Built target turtlebot3_act_interfaces__rosidl_typesupport_fastrtps_c
+[2.545s] [ 70%] Built target turtlebot3_act_interfaces
+[2.570s] [ 74%] Built target turtlebot3_act_interfaces__py
+[2.604s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_act_interfaces/libturtlebot3_act_interfaces__python.so[0m
+[2.663s] [ 80%] Built target turtlebot3_act_interfaces__python
+[2.698s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_act_interfaces/turtlebot3_act_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.708s] [ 87%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlebot3_act_interfaces/turtlebot3_act_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.712s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_act_interfaces/turtlebot3_act_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.762s] [ 93%] Built target turtlebot3_act_interfaces__rosidl_typesupport_c__pyext
+[2.779s] [ 96%] Built target turtlebot3_act_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.814s] [100%] Built target turtlebot3_act_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.827s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces -- -j8 -l8
+[2.878s] Invoking command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --install /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces
+[2.889s] -- Install configuration: ""
+[2.889s] -- Execute custom install script
+[2.889s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_act_interfaces
+[2.900s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__functions.h
+[2.911s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__struct.h
+[2.921s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__type_support.h
+[2.931s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/task.h
+[2.943s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.955s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/environment/library_path.sh
+[2.965s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/environment/library_path.dsv
+[2.977s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__rosidl_typesupport_fastrtps_c.h
+[2.990s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.998s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/libturtlebot3_act_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.009s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__rosidl_typesupport_fastrtps_cpp.hpp
+[3.019s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.033s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/libturtlebot3_act_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.050s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__rosidl_typesupport_introspection_c.h
+[3.067s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.083s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__builder.hpp
+[3.093s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__struct.hpp
+[3.103s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__traits.hpp
+[3.114s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/task.hpp
+[3.125s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/include/turtlebot3_act_interfaces/action/detail/task__rosidl_typesupport_introspection_cpp.hpp
+[3.136s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/environment/pythonpath.sh
+[3.147s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/environment/pythonpath.dsv
+[3.158s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages/turtlebot3_act_interfaces/__init__.py
+[3.170s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages/turtlebot3_act_interfaces/action/__init__.py
+[3.182s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages/turtlebot3_act_interfaces/action/_task.py
+[3.193s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages/turtlebot3_act_interfaces/turtlebot3_act_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.204s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages/turtlebot3_act_interfaces/turtlebot3_act_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.215s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages/turtlebot3_act_interfaces/turtlebot3_act_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.226s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/libturtlebot3_act_interfaces__python.so
+[3.236s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/action/Task.idl
+[3.249s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/action/Task.action
+[3.258s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlebot3_act_interfaces
+[3.268s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlebot3_act_interfaces
+[3.277s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/environment/ament_prefix_path.sh
+[3.287s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/environment/ament_prefix_path.dsv
+[3.297s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/environment/path.sh
+[3.306s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/environment/path.dsv
+[3.316s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/local_setup.bash
+[3.326s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/local_setup.sh
+[3.335s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/local_setup.zsh
+[3.344s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/local_setup.dsv
+[3.354s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/package.dsv
+[3.363s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/ament_index/resource_index/packages/turtlebot3_act_interfaces
+[3.372s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.382s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.391s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.401s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.410s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.419s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.428s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.438s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfacesConfig.cmake
+[3.447s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfacesConfig-version.cmake
+[3.457s] -- Symlinking: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/package.xml
+[3.466s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/libturtlebot3_act_interfaces__rosidl_generator_c.so
+[3.466s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/libturtlebot3_act_interfaces__rosidl_typesupport_introspection_c.so
+[3.467s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/libturtlebot3_act_interfaces__rosidl_typesupport_c.so
+[3.467s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/libturtlebot3_act_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.468s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/libturtlebot3_act_interfaces__rosidl_typesupport_cpp.so
+[3.502s] Compiling '/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages/turtlebot3_act_interfaces/__init__.py'...
+[3.506s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_generator_cExport.cmake
+[3.506s] -- Installing: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.507s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.507s] -- Installing: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.507s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_typesupport_cExport.cmake
+[3.507s] -- Installing: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.507s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_generator_cppExport.cmake
+[3.508s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.508s] -- Installing: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.508s] -- Up-to-date: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_typesupport_cppExport.cmake
+[3.508s] -- Installing: /home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake/turtlebot3_act_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.512s] Invoked command in '/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --install /home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces

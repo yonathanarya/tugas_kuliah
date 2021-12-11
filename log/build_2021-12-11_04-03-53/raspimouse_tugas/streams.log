@@ -1,0 +1,22 @@
+[0.509s] Invoking command in '/home/yonathanarya/colcon_ws/src/raspimouse_tugas': PYTHONPATH=/home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/raspimouse_tugas build --build-base /home/yonathanarya/colcon_ws/build/raspimouse_tugas/build install --prefix /home/yonathanarya/colcon_ws/install/raspimouse_tugas --record /home/yonathanarya/colcon_ws/build/raspimouse_tugas/install.log --single-version-externally-managed
+[1.054s] running egg_info
+[1.054s] writing ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/PKG-INFO
+[1.057s] writing dependency_links to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/dependency_links.txt
+[1.058s] writing entry points to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/entry_points.txt
+[1.059s] writing requirements to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/requires.txt
+[1.059s] writing top-level names to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/top_level.txt
+[1.129s] reading manifest file '../../build/raspimouse_tugas/raspimouse_tugas.egg-info/SOURCES.txt'
+[1.131s] writing manifest file '../../build/raspimouse_tugas/raspimouse_tugas.egg-info/SOURCES.txt'
+[1.131s] running build
+[1.131s] running build_py
+[1.131s] running install
+[1.133s] running install_lib
+[1.137s] running install_data
+[1.139s] copying launch/tugas.launch.py -> /home/yonathanarya/colcon_ws/install/raspimouse_tugas/share/raspimouse_tugas
+[1.140s] running install_egg_info
+[1.142s] removing '/home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages/raspimouse_tugas-1.0.0-py3.8.egg-info' (and everything under it)
+[1.143s] Copying ../../build/raspimouse_tugas/raspimouse_tugas.egg-info to /home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages/raspimouse_tugas-1.0.0-py3.8.egg-info
+[1.144s] running install_scripts
+[1.180s] Installing teleop script to /home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/raspimouse_tugas
+[1.180s] writing list of installed files to '/home/yonathanarya/colcon_ws/build/raspimouse_tugas/install.log'
+[1.228s] Invoked command in '/home/yonathanarya/colcon_ws/src/raspimouse_tugas' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/raspimouse_tugas build --build-base /home/yonathanarya/colcon_ws/build/raspimouse_tugas/build install --prefix /home/yonathanarya/colcon_ws/install/raspimouse_tugas --record /home/yonathanarya/colcon_ws/build/raspimouse_tugas/install.log --single-version-externally-managed

@@ -1,0 +1,32 @@
+[2.233s] Invoking command in '/home/yonathanarya/colcon_ws/src/raspimouse_tugas': PYTHONPATH=/home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/raspimouse_tugas build --build-base /home/yonathanarya/colcon_ws/build/raspimouse_tugas/build install --prefix /home/yonathanarya/colcon_ws/install/raspimouse_tugas --record /home/yonathanarya/colcon_ws/build/raspimouse_tugas/install.log --single-version-externally-managed
+[3.104s] running egg_info
+[3.106s] creating ../../build/raspimouse_tugas/raspimouse_tugas.egg-info
+[3.106s] writing ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/PKG-INFO
+[3.107s] writing dependency_links to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/dependency_links.txt
+[3.108s] writing entry points to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/entry_points.txt
+[3.108s] writing requirements to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/requires.txt
+[3.108s] writing top-level names to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/top_level.txt
+[3.110s] writing manifest file '../../build/raspimouse_tugas/raspimouse_tugas.egg-info/SOURCES.txt'
+[3.190s] reading manifest file '../../build/raspimouse_tugas/raspimouse_tugas.egg-info/SOURCES.txt'
+[3.192s] writing manifest file '../../build/raspimouse_tugas/raspimouse_tugas.egg-info/SOURCES.txt'
+[3.192s] running build
+[3.192s] running build_py
+[3.193s] creating /home/yonathanarya/colcon_ws/build/raspimouse_tugas/build
+[3.193s] creating /home/yonathanarya/colcon_ws/build/raspimouse_tugas/build/lib
+[3.193s] creating /home/yonathanarya/colcon_ws/build/raspimouse_tugas/build/lib/raspimouse_tugas
+[3.194s] copying raspimouse_tugas/__init__.py -> /home/yonathanarya/colcon_ws/build/raspimouse_tugas/build/lib/raspimouse_tugas
+[3.194s] running install
+[3.196s] running install_lib
+[3.201s] creating /home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages/raspimouse_tugas
+[3.202s] copying /home/yonathanarya/colcon_ws/build/raspimouse_tugas/build/lib/raspimouse_tugas/__init__.py -> /home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages/raspimouse_tugas
+[3.202s] byte-compiling /home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages/raspimouse_tugas/__init__.py to __init__.cpython-38.pyc
+[3.204s] running install_data
+[3.205s] creating /home/yonathanarya/colcon_ws/install/raspimouse_tugas/share/ament_index
+[3.206s] creating /home/yonathanarya/colcon_ws/install/raspimouse_tugas/share/ament_index/resource_index
+[3.206s] creating /home/yonathanarya/colcon_ws/install/raspimouse_tugas/share/ament_index/resource_index/packages
+[3.206s] copying resource/raspimouse_tugas -> /home/yonathanarya/colcon_ws/install/raspimouse_tugas/share/ament_index/resource_index/packages
+[3.206s] copying package.xml -> /home/yonathanarya/colcon_ws/install/raspimouse_tugas/share/raspimouse_tugas
+[3.207s] running install_egg_info
+[3.210s] Copying ../../build/raspimouse_tugas/raspimouse_tugas.egg-info to /home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages/raspimouse_tugas-1.0.0-py3.8.egg-info
+[3.212s] running install_scripts
+[3.268s] writing list of installed files to '/home/yonathanarya/colcon_ws/build/raspimouse_tugas/install.log'

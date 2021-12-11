@@ -1,0 +1,1210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000806] (-) JobUnselected: {'identifier': 'raspimouse_description'}
+[0.000851] (-) JobUnselected: {'identifier': 'turtlebot3_act_interfaces'}
+[0.000877] (-) JobUnselected: {'identifier': 'turtlebot3_action'}
+[0.001095] (-) JobUnselected: {'identifier': 'turtlebot3_actionserver'}
+[0.001425] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001469] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001490] (-) JobUnselected: {'identifier': 'turtlebot3_infiniteloop'}
+[0.001545] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001578] (ros1_bridge) JobQueued: {'identifier': 'ros1_bridge', 'dependencies': OrderedDict([('turtlebot3_act_interfaces', '/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces')])}
+[0.001667] (ros1_bridge) JobStarted: {'identifier': 'ros1_bridge'}
+[0.015782] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'cmake'}
+[0.017916] (ros1_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/yonathanarya/colcon_ws/src/ros1_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/ros1_bridge'], 'cwd': '/home/yonathanarya/colcon_ws/build/ros1_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yonathanarya'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1076'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yonathanarya'), ('OLDPWD', '/home/yonathanarya/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yonathanarya/colcon_ws/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'yonathanarya'), ('JOURNAL_STREAM', '8:45105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yonathanarya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ARYA-Ubuntu:@/tmp/.ICE-unix/1139,unix/ARYA-Ubuntu:/tmp/.ICE-unix/1139'), ('INVOCATION_ID', 'bed2efec119744c1bd01fec0d4f1d0dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4092c0d2_6033_4ec7_a048_1b8766383812'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.599'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/raspimouse_description:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yonathanarya/colcon_ws/build/ros1_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node:/home/yonathanarya/colcon_ws/install/raspimouse_description')]), 'shell': False}
+[0.039852] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw: 1.0.3 (/opt/ros/foxy/share/rmw/cmake)\n'}
+[0.070874] (ros1_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.071179] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100023] (-) TimerEvent: {}
+[0.200392] (-) TimerEvent: {}
+[0.300536] (ros1_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.300788] (-) TimerEvent: {}
+[0.328036] (ros1_bridge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.347209] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.350705] (ros1_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400910] (-) TimerEvent: {}
+[0.473141] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501078] (-) TimerEvent: {}
+[0.531235] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.533380] (ros1_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.601220] (-) TimerEvent: {}
+[0.701612] (-) TimerEvent: {}
+[0.802277] (-) TimerEvent: {}
+[0.902848] (-) TimerEvent: {}
+[1.003147] (-) TimerEvent: {}
+[1.103482] (-) TimerEvent: {}
+[1.203829] (-) TimerEvent: {}
+[1.304196] (-) TimerEvent: {}
+[1.404521] (-) TimerEvent: {}
+[1.504871] (-) TimerEvent: {}
+[1.528346] (ros1_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.529015] (ros1_bridge) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[1.604960] (-) TimerEvent: {}
+[1.690130] (ros1_bridge) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.705079] (-) TimerEvent: {}
+[1.724158] (ros1_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.726387] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.726543] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.726688] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.765208] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.769443] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.769679] (ros1_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.769780] (ros1_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.772651] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.772773] (ros1_bridge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.773392] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.774451] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.775238] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.778295] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.778455] (ros1_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.779070] (ros1_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.805247] (-) TimerEvent: {}
+[1.905939] (-) TimerEvent: {}
+[1.915889] (ros1_bridge) StdoutLine: {'line': b'-- Found turtlebot3_act_interfaces: 1.0.0 (/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake)\n'}
+[1.916303] (ros1_bridge) StdoutLine: {'line': b'-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)\n'}
+[1.988671] (ros1_bridge) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.9.3 (/opt/ros/foxy/share/action_tutorials_interfaces/cmake)\n'}
+[2.005937] (-) TimerEvent: {}
+[2.032962] (ros1_bridge) StdoutLine: {'line': b'-- Found actionlib_msgs: 2.0.4 (/opt/ros/foxy/share/actionlib_msgs/cmake)\n'}
+[2.033427] (ros1_bridge) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[2.106097] (-) TimerEvent: {}
+[2.163767] (ros1_bridge) StdoutLine: {'line': b'-- Found cartographer_ros_msgs: 1.0.9003 (/opt/ros/foxy/share/cartographer_ros_msgs/cmake)\n'}
+[2.200579] (ros1_bridge) StdoutLine: {'line': b'-- Found composition_interfaces: 1.0.0 (/opt/ros/foxy/share/composition_interfaces/cmake)\n'}
+[2.206197] (-) TimerEvent: {}
+[2.306459] (-) TimerEvent: {}
+[2.406753] (-) TimerEvent: {}
+[2.507057] (-) TimerEvent: {}
+[2.607436] (-) TimerEvent: {}
+[2.635687] (ros1_bridge) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[2.660587] (ros1_bridge) StdoutLine: {'line': b'-- Found controller_manager_msgs: 0.8.1 (/opt/ros/foxy/share/controller_manager_msgs/cmake)\n'}
+[2.661184] (ros1_bridge) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[2.707569] (-) TimerEvent: {}
+[2.807882] (-) TimerEvent: {}
+[2.908160] (-) TimerEvent: {}
+[3.008468] (-) TimerEvent: {}
+[3.075754] (ros1_bridge) StdoutLine: {'line': b'-- Found dwb_msgs: 0.4.7 (/opt/ros/foxy/share/dwb_msgs/cmake)\n'}
+[3.108599] (-) TimerEvent: {}
+[3.156550] (ros1_bridge) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[3.208696] (-) TimerEvent: {}
+[3.309018] (-) TimerEvent: {}
+[3.330244] (ros1_bridge) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)\n'}
+[3.331835] (ros1_bridge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.333026] (ros1_bridge) StdoutLine: {'line': b'-- Found libstatistics_collector: 1.0.1 (/opt/ros/foxy/share/libstatistics_collector/cmake)\n'}
+[3.345479] (ros1_bridge) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)\n'}
+[3.355378] (ros1_bridge) StdoutLine: {'line': b'-- Found logging_demo: 0.9.3 (/opt/ros/foxy/share/logging_demo/cmake)\n'}
+[3.409158] (-) TimerEvent: {}
+[3.509505] (-) TimerEvent: {}
+[3.609818] (-) TimerEvent: {}
+[3.656865] (ros1_bridge) StdoutLine: {'line': b'-- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)\n'}
+[3.709955] (-) TimerEvent: {}
+[3.810347] (-) TimerEvent: {}
+[3.910652] (-) TimerEvent: {}
+[3.943378] (ros1_bridge) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[3.944180] (ros1_bridge) StdoutLine: {'line': b'-- Found nav_2d_msgs: 0.4.7 (/opt/ros/foxy/share/nav_2d_msgs/cmake)\n'}
+[3.944594] (ros1_bridge) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[4.010869] (-) TimerEvent: {}
+[4.096966] (ros1_bridge) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)\n'}
+[4.110961] (-) TimerEvent: {}
+[4.114240] (ros1_bridge) StdoutLine: {'line': b'-- Found pendulum_msgs: 0.9.3 (/opt/ros/foxy/share/pendulum_msgs/cmake)\n'}
+[4.114643] (ros1_bridge) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.0.0 (/opt/ros/foxy/share/rcl_interfaces/cmake)\n'}
+[4.128910] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)\n'}
+[4.129267] (ros1_bridge) StdoutLine: {'line': b'-- Found rosgraph_msgs: 1.0.0 (/opt/ros/foxy/share/rosgraph_msgs/cmake)\n'}
+[4.129517] (ros1_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.203566] (ros1_bridge) StdoutLine: {'line': b'-- Found shape_msgs: 2.0.4 (/opt/ros/foxy/share/shape_msgs/cmake)\n'}
+[4.211077] (-) TimerEvent: {}
+[4.311392] (-) TimerEvent: {}
+[4.411736] (-) TimerEvent: {}
+[4.512129] (-) TimerEvent: {}
+[4.612469] (-) TimerEvent: {}
+[4.712795] (-) TimerEvent: {}
+[4.813108] (-) TimerEvent: {}
+[4.913424] (-) TimerEvent: {}
+[4.933945] (ros1_bridge) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[5.013540] (-) TimerEvent: {}
+[5.045890] (ros1_bridge) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[5.048739] (ros1_bridge) StdoutLine: {'line': b'-- Found OGRE\n'}
+[5.049001] (ros1_bridge) StdoutLine: {'line': b'--   static     : OFF\n'}
+[5.049145] (ros1_bridge) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[5.049363] (ros1_bridge) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[5.049496] (ros1_bridge) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[5.049618] (ros1_bridge) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[5.049744] (ros1_bridge) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[5.049915] (ros1_bridge) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[5.050046] (ros1_bridge) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[5.050182] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[5.050335] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[5.050466] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[5.050587] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[5.100573] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[5.100881] (ros1_bridge) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[5.113678] (-) TimerEvent: {}
+[5.122559] (ros1_bridge) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[5.203700] (ros1_bridge) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[5.213800] (-) TimerEvent: {}
+[5.314079] (-) TimerEvent: {}
+[5.401218] (ros1_bridge) StdoutLine: {'line': b'-- Found slam_toolbox: 2.4.1 (/opt/ros/foxy/share/slam_toolbox/cmake)\n'}
+[5.401840] (ros1_bridge) StdoutLine: {'line': b'-- Found statistics_msgs: 1.0.0 (/opt/ros/foxy/share/statistics_msgs/cmake)\n'}
+[5.402338] (ros1_bridge) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[5.403594] (ros1_bridge) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[5.414196] (-) TimerEvent: {}
+[5.514481] (-) TimerEvent: {}
+[5.544141] (ros1_bridge) StdoutLine: {'line': b'-- Found stereo_msgs: 2.0.4 (/opt/ros/foxy/share/stereo_msgs/cmake)\n'}
+[5.614578] (-) TimerEvent: {}
+[5.625685] (ros1_bridge) StdoutLine: {'line': b'-- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)\n'}
+[5.626369] (ros1_bridge) StdoutLine: {'line': b'-- Found tf2_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_msgs/cmake)\n'}
+[5.626779] (ros1_bridge) StdoutLine: {'line': b'-- Found trajectory_msgs: 2.0.4 (/opt/ros/foxy/share/trajectory_msgs/cmake)\n'}
+[5.714717] (-) TimerEvent: {}
+[5.748792] (ros1_bridge) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)\n'}
+[5.809353] (ros1_bridge) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[5.809953] (ros1_bridge) StdoutLine: {'line': b'-- Found unique_identifier_msgs: 2.1.3 (/opt/ros/foxy/share/unique_identifier_msgs/cmake)\n'}
+[5.810222] (ros1_bridge) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[5.814790] (-) TimerEvent: {}
+[5.915080] (-) TimerEvent: {}
+[6.015431] (-) TimerEvent: {}
+[6.115779] (-) TimerEvent: {}
+[6.216117] (-) TimerEvent: {}
+[6.316542] (-) TimerEvent: {}
+[6.323074] (ros1_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.400279] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:145 (add_executable):\n'}
+[6.400492] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target static_bridge because\n'}
+[6.400572] (ros1_bridge) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[6.400660] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[6.400799] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.400940] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.401061] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.401169] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.401276] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.401373] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.401470] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.401566] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.401664] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.401760] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.401858] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.401954] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.402068] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:191 (custom_executable)\n'}
+[6.402167] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.402266] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.402389] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:145 (add_executable):\n'}
+[6.402492] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target static_bridge because\n'}
+[6.402595] (ros1_bridge) StderrLine: {'line': b'  there is a cycle in the constraint graph:\n'}
+[6.402696] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.402795] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/opt/ros/noetic/lib]\n'}
+[6.402896] (ros1_bridge) StderrLine: {'line': b'      dir 3 must precede it due to runtime library [liburdf.so]\n'}
+[6.402996] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]\n'}
+[6.403096] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]\n'}
+[6.403215] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/opt/ros/foxy/lib]\n'}
+[6.403310] (ros1_bridge) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [liblayers.so]\n'}
+[6.403404] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[6.403499] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]\n'}
+[6.403594] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[6.403688] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.403782] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.403876] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.403970] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:191 (custom_executable)\n'}
+[6.404104] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.404204] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.416620] (-) TimerEvent: {}
+[6.516882] (-) TimerEvent: {}
+[6.536448] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:174 (add_library):\n'}
+[6.536750] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target ros1_bridge because\n'}
+[6.536911] (ros1_bridge) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[6.537065] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[6.537218] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.537340] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.537446] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.537518] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.537590] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.537664] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.537737] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.537809] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.537892] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.537965] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.538036] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.538109] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.538209] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.538298] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:174 (add_library):\n'}
+[6.538405] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target ros1_bridge because\n'}
+[6.538498] (ros1_bridge) StderrLine: {'line': b'  there is a cycle in the constraint graph:\n'}
+[6.538588] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.538679] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]\n'}
+[6.538769] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/opt/ros/foxy/lib]\n'}
+[6.538857] (ros1_bridge) StderrLine: {'line': b'      dir 2 must precede it due to runtime library [liblayers.so]\n'}
+[6.538946] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/opt/ros/noetic/lib]\n'}
+[6.539053] (ros1_bridge) StderrLine: {'line': b'      dir 1 must precede it due to runtime library [liburdf.so]\n'}
+[6.539148] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[6.539246] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/lib/x86_64-linux-gnu]\n'}
+[6.539342] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[6.539440] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.539537] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.539635] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.539731] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.616988] (-) TimerEvent: {}
+[6.633400] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:145 (add_executable):\n'}
+[6.633589] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target parameter_bridge\n'}
+[6.633670] (ros1_bridge) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[6.633743] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[6.633813] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.633880] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.633970] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.634055] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.634167] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.634248] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.634343] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.634430] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.634511] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.634591] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.634670] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.634757] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.634838] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:198 (custom_executable)\n'}
+[6.634917] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.634997] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.635101] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:145 (add_executable):\n'}
+[6.635196] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target parameter_bridge\n'}
+[6.635291] (ros1_bridge) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[6.635384] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.635478] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/opt/ros/noetic/lib]\n'}
+[6.635571] (ros1_bridge) StderrLine: {'line': b'      dir 3 must precede it due to runtime library [liburdf.so]\n'}
+[6.635664] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]\n'}
+[6.635759] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]\n'}
+[6.635852] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/opt/ros/foxy/lib]\n'}
+[6.635946] (ros1_bridge) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [liblayers.so]\n'}
+[6.636038] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[6.636131] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]\n'}
+[6.636234] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[6.636320] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.636402] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.636488] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.636572] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:198 (custom_executable)\n'}
+[6.636657] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.636743] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.670714] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:145 (add_executable):\n'}
+[6.670904] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target dynamic_bridge\n'}
+[6.670980] (ros1_bridge) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[6.671048] (ros1_bridge) StderrLine: {'line': b'  directories:\n'}
+[6.671125] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.671214] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.671311] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.671390] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.671475] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.671548] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.671622] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.671700] (ros1_bridge) StderrLine: {'line': b'    runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[6.671774] (ros1_bridge) StderrLine: {'line': b'      /opt/ros/foxy/lib/x86_64-linux-gnu\n'}
+[6.671846] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.671917] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.671988] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.672060] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:205 (custom_executable)\n'}
+[6.672169] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.672264] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.672358] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:145 (add_executable):\n'}
+[6.672453] (ros1_bridge) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target dynamic_bridge\n'}
+[6.672547] (ros1_bridge) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[6.672641] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.672734] (ros1_bridge) StderrLine: {'line': b'    dir 0 is [/opt/ros/noetic/lib]\n'}
+[6.672826] (ros1_bridge) StderrLine: {'line': b'      dir 3 must precede it due to runtime library [liburdf.so]\n'}
+[6.672919] (ros1_bridge) StderrLine: {'line': b'    dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]\n'}
+[6.673013] (ros1_bridge) StderrLine: {'line': b'    dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]\n'}
+[6.673107] (ros1_bridge) StderrLine: {'line': b'    dir 3 is [/opt/ros/foxy/lib]\n'}
+[6.673201] (ros1_bridge) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [liblayers.so]\n'}
+[6.673294] (ros1_bridge) StderrLine: {'line': b'    dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]\n'}
+[6.673387] (ros1_bridge) StderrLine: {'line': b'    dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]\n'}
+[6.673481] (ros1_bridge) StderrLine: {'line': b'    dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]\n'}
+[6.673574] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.673666] (ros1_bridge) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[6.673759] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.673851] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:205 (custom_executable)\n'}
+[6.673945] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.674052] (ros1_bridge) StderrLine: {'line': b'\n'}
+[6.717101] (-) TimerEvent: {}
+[6.760881] (ros1_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[6.767730] (ros1_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/yonathanarya/colcon_ws/build/ros1_bridge\n'}
+[6.783802] (ros1_bridge) CommandEnded: {'returncode': 0}
+[6.785688] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'build'}
+[6.788661] (ros1_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yonathanarya/colcon_ws/build/ros1_bridge', '--', '-j8', '-l8'], 'cwd': '/home/yonathanarya/colcon_ws/build/ros1_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yonathanarya'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1076'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yonathanarya'), ('OLDPWD', '/home/yonathanarya/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yonathanarya/colcon_ws/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'yonathanarya'), ('JOURNAL_STREAM', '8:45105'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yonathanarya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ARYA-Ubuntu:@/tmp/.ICE-unix/1139,unix/ARYA-Ubuntu:/tmp/.ICE-unix/1139'), ('INVOCATION_ID', 'bed2efec119744c1bd01fec0d4f1d0dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4092c0d2_6033_4ec7_a048_1b8766383812'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.599'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/raspimouse_description:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yonathanarya/colcon_ws/build/ros1_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node:/home/yonathanarya/colcon_ws/install/raspimouse_description')]), 'shell': False}
+[6.817229] (-) TimerEvent: {}
+[6.917778] (-) TimerEvent: {}
+[6.954678] (ros1_bridge) StdoutLine: {'line': b'[  1%] Built target test_ros1_server\n'}
+[6.956108] (ros1_bridge) StdoutLine: {'line': b'[  1%] Built target test_ros1_client\n'}
+[6.974576] (ros1_bridge) StdoutLine: {'line': b'[  1%] Built target simple_bridge_2_to_1\n'}
+[6.979211] (ros1_bridge) StdoutLine: {'line': b'[  1%] Built target test_ros2_client_cpp\n'}
+[6.980059] (ros1_bridge) StdoutLine: {'line': b'[  2%] Built target test_ros2_server_cpp\n'}
+[6.981886] (ros1_bridge) StdoutLine: {'line': b'[  3%] Built target simple_bridge_1_to_2\n'}
+[6.986816] (ros1_bridge) StdoutLine: {'line': b'[  3%] Built target simple_bridge\n'}
+[7.017840] (-) TimerEvent: {}
+[7.118207] (-) TimerEvent: {}
+[7.218559] (-) TimerEvent: {}
+[7.318905] (-) TimerEvent: {}
+[7.419200] (-) TimerEvent: {}
+[7.519501] (-) TimerEvent: {}
+[7.619879] (-) TimerEvent: {}
+[7.720500] (-) TimerEvent: {}
+[7.820974] (-) TimerEvent: {}
+[7.921433] (-) TimerEvent: {}
+[8.021957] (-) TimerEvent: {}
+[8.122558] (-) TimerEvent: {}
+[8.223237] (-) TimerEvent: {}
+[8.323569] (-) TimerEvent: {}
+[8.365255] (ros1_bridge) StdoutLine: {'line': b'[ 99%] Built target ros1_bridge\n'}
+[8.422950] (ros1_bridge) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable parameter_bridge\x1b[0m\n'}
+[8.423360] (ros1_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable static_bridge\x1b[0m\n'}
+[8.423637] (-) TimerEvent: {}
+[8.423901] (ros1_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dynamic_bridge\x1b[0m\n'}
+[8.523810] (-) TimerEvent: {}
+[8.624354] (-) TimerEvent: {}
+[8.724819] (-) TimerEvent: {}
+[8.825360] (-) TimerEvent: {}
+[8.925762] (-) TimerEvent: {}
+[9.026126] (-) TimerEvent: {}
+[9.126673] (-) TimerEvent: {}
+[9.227243] (-) TimerEvent: {}
+[9.328200] (-) TimerEvent: {}
+[9.428708] (-) TimerEvent: {}
+[9.529506] (-) TimerEvent: {}
+[9.630877] (-) TimerEvent: {}
+[9.731868] (-) TimerEvent: {}
+[9.832409] (-) TimerEvent: {}
+[9.932973] (-) TimerEvent: {}
+[10.033598] (-) TimerEvent: {}
+[10.134288] (-) TimerEvent: {}
+[10.235256] (-) TimerEvent: {}
+[10.336416] (-) TimerEvent: {}
+[10.437546] (-) TimerEvent: {}
+[10.538061] (-) TimerEvent: {}
+[10.638528] (-) TimerEvent: {}
+[10.739040] (-) TimerEvent: {}
+[10.839593] (-) TimerEvent: {}
+[10.940172] (-) TimerEvent: {}
+[11.040731] (-) TimerEvent: {}
+[11.141268] (-) TimerEvent: {}
+[11.241764] (-) TimerEvent: {}
+[11.342288] (-) TimerEvent: {}
+[11.442897] (-) TimerEvent: {}
+[11.543679] (-) TimerEvent: {}
+[11.644866] (-) TimerEvent: {}
+[11.745596] (-) TimerEvent: {}
+[11.847533] (-) TimerEvent: {}
+[11.948412] (-) TimerEvent: {}
+[12.049004] (-) TimerEvent: {}
+[12.149735] (-) TimerEvent: {}
+[12.250622] (-) TimerEvent: {}
+[12.351590] (-) TimerEvent: {}
+[12.452173] (-) TimerEvent: {}
+[12.552775] (-) TimerEvent: {}
+[12.653506] (-) TimerEvent: {}
+[12.754277] (-) TimerEvent: {}
+[12.854980] (-) TimerEvent: {}
+[12.955638] (-) TimerEvent: {}
+[13.056260] (-) TimerEvent: {}
+[13.156866] (-) TimerEvent: {}
+[13.257484] (-) TimerEvent: {}
+[13.358091] (-) TimerEvent: {}
+[13.458722] (-) TimerEvent: {}
+[13.559295] (-) TimerEvent: {}
+[13.660052] (-) TimerEvent: {}
+[13.761221] (-) TimerEvent: {}
+[13.862053] (-) TimerEvent: {}
+[13.962683] (-) TimerEvent: {}
+[14.063262] (-) TimerEvent: {}
+[14.163985] (-) TimerEvent: {}
+[14.264616] (-) TimerEvent: {}
+[14.365213] (-) TimerEvent: {}
+[14.465957] (-) TimerEvent: {}
+[14.566590] (-) TimerEvent: {}
+[14.667292] (-) TimerEvent: {}
+[14.767841] (-) TimerEvent: {}
+[14.868433] (-) TimerEvent: {}
+[14.968968] (-) TimerEvent: {}
+[15.069981] (-) TimerEvent: {}
+[15.171112] (-) TimerEvent: {}
+[15.271826] (-) TimerEvent: {}
+[15.372580] (-) TimerEvent: {}
+[15.473693] (-) TimerEvent: {}
+[15.574457] (-) TimerEvent: {}
+[15.675275] (-) TimerEvent: {}
+[15.776064] (-) TimerEvent: {}
+[15.877126] (-) TimerEvent: {}
+[15.978041] (-) TimerEvent: {}
+[16.078628] (-) TimerEvent: {}
+[16.179214] (-) TimerEvent: {}
+[16.279979] (-) TimerEvent: {}
+[16.380559] (-) TimerEvent: {}
+[16.481215] (-) TimerEvent: {}
+[16.581977] (-) TimerEvent: {}
+[16.682947] (-) TimerEvent: {}
+[16.783923] (-) TimerEvent: {}
+[16.884896] (-) TimerEvent: {}
+[16.985437] (-) TimerEvent: {}
+[17.086044] (-) TimerEvent: {}
+[17.186625] (-) TimerEvent: {}
+[17.287184] (-) TimerEvent: {}
+[17.387836] (-) TimerEvent: {}
+[17.488647] (-) TimerEvent: {}
+[17.589960] (-) TimerEvent: {}
+[17.690485] (-) TimerEvent: {}
+[17.791067] (-) TimerEvent: {}
+[17.891673] (-) TimerEvent: {}
+[17.992285] (-) TimerEvent: {}
+[18.093312] (-) TimerEvent: {}
+[18.194122] (-) TimerEvent: {}
+[18.294795] (-) TimerEvent: {}
+[18.395545] (-) TimerEvent: {}
+[18.496161] (-) TimerEvent: {}
+[18.596893] (-) TimerEvent: {}
+[18.697431] (-) TimerEvent: {}
+[18.798213] (-) TimerEvent: {}
+[18.898951] (-) TimerEvent: {}
+[18.999801] (-) TimerEvent: {}
+[19.101425] (-) TimerEvent: {}
+[19.202083] (-) TimerEvent: {}
+[19.302939] (-) TimerEvent: {}
+[19.403918] (-) TimerEvent: {}
+[19.505130] (-) TimerEvent: {}
+[19.605773] (-) TimerEvent: {}
+[19.706406] (-) TimerEvent: {}
+[19.806966] (-) TimerEvent: {}
+[19.907631] (-) TimerEvent: {}
+[20.008323] (-) TimerEvent: {}
+[20.108967] (-) TimerEvent: {}
+[20.209667] (-) TimerEvent: {}
+[20.310254] (-) TimerEvent: {}
+[20.410958] (-) TimerEvent: {}
+[20.511609] (-) TimerEvent: {}
+[20.612371] (-) TimerEvent: {}
+[20.712989] (-) TimerEvent: {}
+[20.813789] (-) TimerEvent: {}
+[20.914484] (-) TimerEvent: {}
+[21.015221] (-) TimerEvent: {}
+[21.115756] (-) TimerEvent: {}
+[21.216490] (-) TimerEvent: {}
+[21.317049] (-) TimerEvent: {}
+[21.417643] (-) TimerEvent: {}
+[21.518150] (-) TimerEvent: {}
+[21.618681] (-) TimerEvent: {}
+[21.719222] (-) TimerEvent: {}
+[21.820079] (-) TimerEvent: {}
+[21.920788] (-) TimerEvent: {}
+[22.021380] (-) TimerEvent: {}
+[22.122122] (-) TimerEvent: {}
+[22.222776] (-) TimerEvent: {}
+[22.323577] (-) TimerEvent: {}
+[22.424225] (-) TimerEvent: {}
+[22.524957] (-) TimerEvent: {}
+[22.625547] (-) TimerEvent: {}
+[22.726226] (-) TimerEvent: {}
+[22.826758] (-) TimerEvent: {}
+[22.927401] (-) TimerEvent: {}
+[23.027893] (-) TimerEvent: {}
+[23.128482] (-) TimerEvent: {}
+[23.229406] (-) TimerEvent: {}
+[23.330520] (-) TimerEvent: {}
+[23.431579] (-) TimerEvent: {}
+[23.532808] (-) TimerEvent: {}
+[23.633469] (-) TimerEvent: {}
+[23.734091] (-) TimerEvent: {}
+[23.834889] (-) TimerEvent: {}
+[23.935506] (-) TimerEvent: {}
+[24.036395] (-) TimerEvent: {}
+[24.137272] (-) TimerEvent: {}
+[24.237907] (-) TimerEvent: {}
+[24.338439] (-) TimerEvent: {}
+[24.439261] (-) TimerEvent: {}
+[24.540491] (-) TimerEvent: {}
+[24.641359] (-) TimerEvent: {}
+[24.742444] (-) TimerEvent: {}
+[24.843237] (-) TimerEvent: {}
+[24.943894] (-) TimerEvent: {}
+[25.044592] (-) TimerEvent: {}
+[25.145199] (-) TimerEvent: {}
+[25.245958] (-) TimerEvent: {}
+[25.346540] (-) TimerEvent: {}
+[25.447241] (-) TimerEvent: {}
+[25.548058] (-) TimerEvent: {}
+[25.648594] (-) TimerEvent: {}
+[25.749293] (-) TimerEvent: {}
+[25.850585] (-) TimerEvent: {}
+[25.951226] (-) TimerEvent: {}
+[26.052044] (-) TimerEvent: {}
+[26.152716] (-) TimerEvent: {}
+[26.253421] (-) TimerEvent: {}
+[26.353940] (-) TimerEvent: {}
+[26.454538] (-) TimerEvent: {}
+[26.555289] (-) TimerEvent: {}
+[26.655815] (-) TimerEvent: {}
+[26.756470] (-) TimerEvent: {}
+[26.857189] (-) TimerEvent: {}
+[26.958040] (-) TimerEvent: {}
+[27.059185] (-) TimerEvent: {}
+[27.159786] (-) TimerEvent: {}
+[27.260321] (-) TimerEvent: {}
+[27.360774] (-) TimerEvent: {}
+[27.461325] (-) TimerEvent: {}
+[27.561893] (-) TimerEvent: {}
+[27.662599] (-) TimerEvent: {}
+[27.763262] (-) TimerEvent: {}
+[27.863947] (-) TimerEvent: {}
+[27.964614] (-) TimerEvent: {}
+[28.065179] (-) TimerEvent: {}
+[28.165801] (-) TimerEvent: {}
+[28.266429] (-) TimerEvent: {}
+[28.367117] (-) TimerEvent: {}
+[28.467734] (-) TimerEvent: {}
+[28.568475] (-) TimerEvent: {}
+[28.669061] (-) TimerEvent: {}
+[28.769902] (-) TimerEvent: {}
+[28.871719] (-) TimerEvent: {}
+[28.972271] (-) TimerEvent: {}
+[29.072950] (-) TimerEvent: {}
+[29.173527] (-) TimerEvent: {}
+[29.274407] (-) TimerEvent: {}
+[29.375469] (-) TimerEvent: {}
+[29.476359] (-) TimerEvent: {}
+[29.577116] (-) TimerEvent: {}
+[29.677745] (-) TimerEvent: {}
+[29.778532] (-) TimerEvent: {}
+[29.879232] (-) TimerEvent: {}
+[29.980164] (-) TimerEvent: {}
+[30.080730] (-) TimerEvent: {}
+[30.181292] (-) TimerEvent: {}
+[30.282079] (-) TimerEvent: {}
+[30.383342] (-) TimerEvent: {}
+[30.487091] (-) TimerEvent: {}
+[30.587578] (-) TimerEvent: {}
+[30.688193] (-) TimerEvent: {}
+[30.789538] (-) TimerEvent: {}
+[30.890772] (-) TimerEvent: {}
+[30.992172] (-) TimerEvent: {}
+[31.093193] (-) TimerEvent: {}
+[31.193825] (-) TimerEvent: {}
+[31.294512] (-) TimerEvent: {}
+[31.395295] (-) TimerEvent: {}
+[31.495905] (-) TimerEvent: {}
+[31.596693] (-) TimerEvent: {}
+[31.697309] (-) TimerEvent: {}
+[31.798104] (-) TimerEvent: {}
+[31.898961] (-) TimerEvent: {}
+[32.000861] (-) TimerEvent: {}
+[32.102074] (-) TimerEvent: {}
+[32.202727] (-) TimerEvent: {}
+[32.303500] (-) TimerEvent: {}
+[32.404102] (-) TimerEvent: {}
+[32.504899] (-) TimerEvent: {}
+[32.605774] (-) TimerEvent: {}
+[32.706302] (-) TimerEvent: {}
+[32.806886] (-) TimerEvent: {}
+[32.907585] (-) TimerEvent: {}
+[33.008161] (-) TimerEvent: {}
+[33.108861] (-) TimerEvent: {}
+[33.209407] (-) TimerEvent: {}
+[33.310109] (-) TimerEvent: {}
+[33.410685] (-) TimerEvent: {}
+[33.511372] (-) TimerEvent: {}
+[33.611908] (-) TimerEvent: {}
+[33.712481] (-) TimerEvent: {}
+[33.813025] (-) TimerEvent: {}
+[33.913629] (-) TimerEvent: {}
+[34.014193] (-) TimerEvent: {}
+[34.114772] (-) TimerEvent: {}
+[34.215525] (-) TimerEvent: {}
+[34.316129] (-) TimerEvent: {}
+[34.416822] (-) TimerEvent: {}
+[34.517394] (-) TimerEvent: {}
+[34.618098] (-) TimerEvent: {}
+[34.718670] (-) TimerEvent: {}
+[34.819463] (-) TimerEvent: {}
+[34.920012] (-) TimerEvent: {}
+[35.020674] (-) TimerEvent: {}
+[35.121311] (-) TimerEvent: {}
+[35.222047] (-) TimerEvent: {}
+[35.322711] (-) TimerEvent: {}
+[35.423450] (-) TimerEvent: {}
+[35.524067] (-) TimerEvent: {}
+[35.624782] (-) TimerEvent: {}
+[35.725405] (-) TimerEvent: {}
+[35.825979] (-) TimerEvent: {}
+[35.926661] (-) TimerEvent: {}
+[36.027273] (-) TimerEvent: {}
+[36.128042] (-) TimerEvent: {}
+[36.228669] (-) TimerEvent: {}
+[36.329392] (-) TimerEvent: {}
+[36.429962] (-) TimerEvent: {}
+[36.530669] (-) TimerEvent: {}
+[36.631240] (-) TimerEvent: {}
+[36.731913] (-) TimerEvent: {}
+[36.832476] (-) TimerEvent: {}
+[36.933166] (-) TimerEvent: {}
+[37.033737] (-) TimerEvent: {}
+[37.134357] (-) TimerEvent: {}
+[37.234861] (-) TimerEvent: {}
+[37.335440] (-) TimerEvent: {}
+[37.435989] (-) TimerEvent: {}
+[37.536579] (-) TimerEvent: {}
+[37.637228] (-) TimerEvent: {}
+[37.737782] (-) TimerEvent: {}
+[37.838437] (-) TimerEvent: {}
+[37.939009] (-) TimerEvent: {}
+[38.039727] (-) TimerEvent: {}
+[38.140288] (-) TimerEvent: {}
+[38.241004] (-) TimerEvent: {}
+[38.341521] (-) TimerEvent: {}
+[38.442025] (-) TimerEvent: {}
+[38.542567] (-) TimerEvent: {}
+[38.643343] (-) TimerEvent: {}
+[38.744228] (-) TimerEvent: {}
+[38.845317] (-) TimerEvent: {}
+[38.946014] (-) TimerEvent: {}
+[39.046553] (-) TimerEvent: {}
+[39.147099] (-) TimerEvent: {}
+[39.247708] (-) TimerEvent: {}
+[39.348675] (-) TimerEvent: {}
+[39.449766] (-) TimerEvent: {}
+[39.550754] (-) TimerEvent: {}
+[39.651338] (-) TimerEvent: {}
+[39.752031] (-) TimerEvent: {}
+[39.852663] (-) TimerEvent: {}
+[39.953352] (-) TimerEvent: {}
+[40.053921] (-) TimerEvent: {}
+[40.154584] (-) TimerEvent: {}
+[40.255105] (-) TimerEvent: {}
+[40.355719] (-) TimerEvent: {}
+[40.456279] (-) TimerEvent: {}
+[40.556933] (-) TimerEvent: {}
+[40.657489] (-) TimerEvent: {}
+[40.757997] (-) TimerEvent: {}
+[40.858536] (-) TimerEvent: {}
+[40.959101] (-) TimerEvent: {}
+[41.059830] (-) TimerEvent: {}
+[41.160406] (-) TimerEvent: {}
+[41.261115] (-) TimerEvent: {}
+[41.361661] (-) TimerEvent: {}
+[41.462243] (-) TimerEvent: {}
+[41.562769] (-) TimerEvent: {}
+[41.663339] (-) TimerEvent: {}
+[41.763844] (-) TimerEvent: {}
+[41.864387] (-) TimerEvent: {}
+[41.964953] (-) TimerEvent: {}
+[42.065577] (-) TimerEvent: {}
+[42.166277] (-) TimerEvent: {}
+[42.266977] (-) TimerEvent: {}
+[42.367701] (-) TimerEvent: {}
+[42.468243] (-) TimerEvent: {}
+[42.568920] (-) TimerEvent: {}
+[42.669432] (-) TimerEvent: {}
+[42.770026] (-) TimerEvent: {}
+[42.870648] (-) TimerEvent: {}
+[42.971248] (-) TimerEvent: {}
+[43.071885] (-) TimerEvent: {}
+[43.172492] (-) TimerEvent: {}
+[43.273165] (-) TimerEvent: {}
+[43.373744] (-) TimerEvent: {}
+[43.474451] (-) TimerEvent: {}
+[43.574984] (-) TimerEvent: {}
+[43.675674] (-) TimerEvent: {}
+[43.776217] (-) TimerEvent: {}
+[43.876845] (-) TimerEvent: {}
+[43.977424] (-) TimerEvent: {}
+[44.077955] (-) TimerEvent: {}
+[44.178462] (-) TimerEvent: {}
+[44.279051] (-) TimerEvent: {}
+[44.379705] (-) TimerEvent: {}
+[44.480281] (-) TimerEvent: {}
+[44.581084] (-) TimerEvent: {}
+[44.681734] (-) TimerEvent: {}
+[44.782530] (-) TimerEvent: {}
+[44.883158] (-) TimerEvent: {}
+[44.983938] (-) TimerEvent: {}
+[45.084555] (-) TimerEvent: {}
+[45.185228] (-) TimerEvent: {}
+[45.285756] (-) TimerEvent: {}
+[45.386472] (-) TimerEvent: {}
+[45.487104] (-) TimerEvent: {}
+[45.587702] (-) TimerEvent: {}
+[45.688372] (-) TimerEvent: {}
+[45.788975] (-) TimerEvent: {}
+[45.889639] (-) TimerEvent: {}
+[45.990176] (-) TimerEvent: {}
+[46.090804] (-) TimerEvent: {}
+[46.191317] (-) TimerEvent: {}
+[46.291985] (-) TimerEvent: {}
+[46.392603] (-) TimerEvent: {}
+[46.493138] (-) TimerEvent: {}
+[46.593794] (-) TimerEvent: {}
+[46.694593] (-) TimerEvent: {}
+[46.795222] (-) TimerEvent: {}
+[46.895998] (-) TimerEvent: {}
+[46.996647] (-) TimerEvent: {}
+[47.097395] (-) TimerEvent: {}
+[47.197998] (-) TimerEvent: {}
+[47.298753] (-) TimerEvent: {}
+[47.399329] (-) TimerEvent: {}
+[47.499966] (-) TimerEvent: {}
+[47.600563] (-) TimerEvent: {}
+[47.701160] (-) TimerEvent: {}
+[47.801881] (-) TimerEvent: {}
+[47.902454] (-) TimerEvent: {}
+[48.003034] (-) TimerEvent: {}
+[48.103622] (-) TimerEvent: {}
+[48.204346] (-) TimerEvent: {}
+[48.305013] (-) TimerEvent: {}
+[48.405800] (-) TimerEvent: {}
+[48.506461] (-) TimerEvent: {}
+[48.607196] (-) TimerEvent: {}
+[48.707792] (-) TimerEvent: {}
+[48.808546] (-) TimerEvent: {}
+[48.909150] (-) TimerEvent: {}
+[49.009803] (-) TimerEvent: {}
+[49.110481] (-) TimerEvent: {}
+[49.211107] (-) TimerEvent: {}
+[49.311650] (-) TimerEvent: {}
+[49.412286] (-) TimerEvent: {}
+[49.512833] (-) TimerEvent: {}
+[49.613422] (-) TimerEvent: {}
+[49.713973] (-) TimerEvent: {}
+[49.814516] (-) TimerEvent: {}
+[49.915119] (-) TimerEvent: {}
+[50.015631] (-) TimerEvent: {}
+[50.116299] (-) TimerEvent: {}
+[50.216859] (-) TimerEvent: {}
+[50.317538] (-) TimerEvent: {}
+[50.418083] (-) TimerEvent: {}
+[50.518667] (-) TimerEvent: {}
+[50.619248] (-) TimerEvent: {}
+[50.719881] (-) TimerEvent: {}
+[50.821047] (-) TimerEvent: {}
+[50.922431] (-) TimerEvent: {}
+[51.023146] (-) TimerEvent: {}
+[51.123705] (-) TimerEvent: {}
+[51.224310] (-) TimerEvent: {}
+[51.324995] (-) TimerEvent: {}
+[51.427959] (-) TimerEvent: {}
+[51.529824] (-) TimerEvent: {}
+[51.630558] (-) TimerEvent: {}
+[51.731560] (-) TimerEvent: {}
+[51.832191] (-) TimerEvent: {}
+[51.932758] (-) TimerEvent: {}
+[52.033415] (-) TimerEvent: {}
+[52.133934] (-) TimerEvent: {}
+[52.234553] (-) TimerEvent: {}
+[52.335119] (-) TimerEvent: {}
+[52.435765] (-) TimerEvent: {}
+[52.536253] (-) TimerEvent: {}
+[52.636777] (-) TimerEvent: {}
+[52.737314] (-) TimerEvent: {}
+[52.837980] (-) TimerEvent: {}
+[52.938720] (-) TimerEvent: {}
+[53.039337] (-) TimerEvent: {}
+[53.140124] (-) TimerEvent: {}
+[53.240766] (-) TimerEvent: {}
+[53.341610] (-) TimerEvent: {}
+[53.442219] (-) TimerEvent: {}
+[53.542937] (-) TimerEvent: {}
+[53.643538] (-) TimerEvent: {}
+[53.744278] (-) TimerEvent: {}
+[53.844882] (-) TimerEvent: {}
+[53.945594] (-) TimerEvent: {}
+[54.046187] (-) TimerEvent: {}
+[54.146797] (-) TimerEvent: {}
+[54.247429] (-) TimerEvent: {}
+[54.348151] (-) TimerEvent: {}
+[54.448749] (-) TimerEvent: {}
+[54.549404] (-) TimerEvent: {}
+[54.649990] (-) TimerEvent: {}
+[54.750614] (-) TimerEvent: {}
+[54.851165] (-) TimerEvent: {}
+[54.951802] (-) TimerEvent: {}
+[55.052446] (-) TimerEvent: {}
+[55.153034] (-) TimerEvent: {}
+[55.253688] (-) TimerEvent: {}
+[55.354275] (-) TimerEvent: {}
+[55.454935] (-) TimerEvent: {}
+[55.555508] (-) TimerEvent: {}
+[55.656160] (-) TimerEvent: {}
+[55.756742] (-) TimerEvent: {}
+[55.857428] (-) TimerEvent: {}
+[55.957990] (-) TimerEvent: {}
+[56.058694] (-) TimerEvent: {}
+[56.159186] (-) TimerEvent: {}
+[56.259790] (-) TimerEvent: {}
+[56.360422] (-) TimerEvent: {}
+[56.461480] (-) TimerEvent: {}
+[56.562259] (-) TimerEvent: {}
+[56.662901] (-) TimerEvent: {}
+[56.763705] (-) TimerEvent: {}
+[56.864338] (-) TimerEvent: {}
+[56.965085] (-) TimerEvent: {}
+[57.065679] (-) TimerEvent: {}
+[57.166300] (-) TimerEvent: {}
+[57.267081] (-) TimerEvent: {}
+[57.367692] (-) TimerEvent: {}
+[57.469211] (-) TimerEvent: {}
+[57.569825] (-) TimerEvent: {}
+[57.670635] (-) TimerEvent: {}
+[57.771214] (-) TimerEvent: {}
+[57.871891] (-) TimerEvent: {}
+[57.972442] (-) TimerEvent: {}
+[58.072975] (-) TimerEvent: {}
+[58.173585] (-) TimerEvent: {}
+[58.274267] (-) TimerEvent: {}
+[58.374976] (-) TimerEvent: {}
+[58.475528] (-) TimerEvent: {}
+[58.576277] (-) TimerEvent: {}
+[58.676842] (-) TimerEvent: {}
+[58.777558] (-) TimerEvent: {}
+[58.878148] (-) TimerEvent: {}
+[58.978781] (-) TimerEvent: {}
+[59.079334] (-) TimerEvent: {}
+[59.179968] (-) TimerEvent: {}
+[59.280464] (-) TimerEvent: {}
+[59.380995] (-) TimerEvent: {}
+[59.481710] (-) TimerEvent: {}
+[59.582334] (-) TimerEvent: {}
+[59.683002] (-) TimerEvent: {}
+[59.783570] (-) TimerEvent: {}
+[59.884240] (-) TimerEvent: {}
+[59.984772] (-) TimerEvent: {}
+[60.085489] (-) TimerEvent: {}
+[60.186212] (-) TimerEvent: {}
+[60.286909] (-) TimerEvent: {}
+[60.387869] (-) TimerEvent: {}
+[60.488671] (-) TimerEvent: {}
+[60.589386] (-) TimerEvent: {}
+[60.690303] (-) TimerEvent: {}
+[60.790904] (-) TimerEvent: {}
+[60.891640] (-) TimerEvent: {}
+[60.992314] (-) TimerEvent: {}
+[61.093003] (-) TimerEvent: {}
+[61.193694] (-) TimerEvent: {}
+[61.294880] (-) TimerEvent: {}
+[61.395469] (-) TimerEvent: {}
+[61.496135] (-) TimerEvent: {}
+[61.597559] (-) TimerEvent: {}
+[61.698703] (-) TimerEvent: {}
+[61.799361] (-) TimerEvent: {}
+[61.900271] (-) TimerEvent: {}
+[62.000962] (-) TimerEvent: {}
+[62.101609] (-) TimerEvent: {}
+[62.202384] (-) TimerEvent: {}
+[62.303254] (-) TimerEvent: {}
+[62.404536] (-) TimerEvent: {}
+[62.505509] (-) TimerEvent: {}
+[62.606221] (-) TimerEvent: {}
+[62.706961] (-) TimerEvent: {}
+[62.807591] (-) TimerEvent: {}
+[62.908485] (-) TimerEvent: {}
+[63.009126] (-) TimerEvent: {}
+[63.109899] (-) TimerEvent: {}
+[63.210605] (-) TimerEvent: {}
+[63.311707] (-) TimerEvent: {}
+[63.412260] (-) TimerEvent: {}
+[63.512800] (-) TimerEvent: {}
+[63.613337] (-) TimerEvent: {}
+[63.713919] (-) TimerEvent: {}
+[63.814570] (-) TimerEvent: {}
+[63.915200] (-) TimerEvent: {}
+[64.015835] (-) TimerEvent: {}
+[64.116361] (-) TimerEvent: {}
+[64.217002] (-) TimerEvent: {}
+[64.317659] (-) TimerEvent: {}
+[64.418349] (-) TimerEvent: {}
+[64.518964] (-) TimerEvent: {}
+[64.619623] (-) TimerEvent: {}
+[64.720214] (-) TimerEvent: {}
+[64.820816] (-) TimerEvent: {}
+[64.921534] (-) TimerEvent: {}
+[65.022166] (-) TimerEvent: {}
+[65.123213] (-) TimerEvent: {}
+[65.224013] (-) TimerEvent: {}
+[65.324832] (-) TimerEvent: {}
+[65.426156] (-) TimerEvent: {}
+[65.527183] (-) TimerEvent: {}
+[65.627781] (-) TimerEvent: {}
+[65.728474] (-) TimerEvent: {}
+[65.829052] (-) TimerEvent: {}
+[65.929753] (-) TimerEvent: {}
+[66.030367] (-) TimerEvent: {}
+[66.131077] (-) TimerEvent: {}
+[66.231719] (-) TimerEvent: {}
+[66.332359] (-) TimerEvent: {}
+[66.433034] (-) TimerEvent: {}
+[66.534304] (-) TimerEvent: {}
+[66.634949] (-) TimerEvent: {}
+[66.735487] (-) TimerEvent: {}
+[66.836139] (-) TimerEvent: {}
+[66.936675] (-) TimerEvent: {}
+[67.037343] (-) TimerEvent: {}
+[67.137905] (-) TimerEvent: {}
+[67.238546] (-) TimerEvent: {}
+[67.339102] (-) TimerEvent: {}
+[67.439757] (-) TimerEvent: {}
+[67.540304] (-) TimerEvent: {}
+[67.641018] (-) TimerEvent: {}
+[67.741580] (-) TimerEvent: {}
+[67.842174] (-) TimerEvent: {}
+[67.942685] (-) TimerEvent: {}
+[68.043294] (-) TimerEvent: {}
+[68.144055] (-) TimerEvent: {}
+[68.244694] (-) TimerEvent: {}
+[68.345474] (-) TimerEvent: {}
+[68.446076] (-) TimerEvent: {}
+[68.546893] (-) TimerEvent: {}
+[68.647507] (-) TimerEvent: {}
+[68.748287] (-) TimerEvent: {}
+[68.848913] (-) TimerEvent: {}
+[68.949666] (-) TimerEvent: {}
+[69.050270] (-) TimerEvent: {}
+[69.150857] (-) TimerEvent: {}
+[69.251480] (-) TimerEvent: {}
+[69.352067] (-) TimerEvent: {}
+[69.454509] (-) TimerEvent: {}
+[69.555350] (-) TimerEvent: {}
+[69.656425] (-) TimerEvent: {}
+[69.757178] (-) TimerEvent: {}
+[69.857834] (-) TimerEvent: {}
+[69.958541] (-) TimerEvent: {}
+[70.059234] (-) TimerEvent: {}
+[70.160391] (-) TimerEvent: {}
+[70.261535] (-) TimerEvent: {}
+[70.362161] (-) TimerEvent: {}
+[70.462739] (-) TimerEvent: {}
+[70.563471] (-) TimerEvent: {}
+[70.664041] (-) TimerEvent: {}
+[70.764680] (-) TimerEvent: {}
+[70.865285] (-) TimerEvent: {}
+[70.965977] (-) TimerEvent: {}
+[71.066544] (-) TimerEvent: {}
+[71.167154] (-) TimerEvent: {}
+[71.267756] (-) TimerEvent: {}
+[71.368286] (-) TimerEvent: {}
+[71.468912] (-) TimerEvent: {}
+[71.569443] (-) TimerEvent: {}
+[71.670143] (-) TimerEvent: {}
+[71.770705] (-) TimerEvent: {}
+[71.871433] (-) TimerEvent: {}
+[71.972048] (-) TimerEvent: {}
+[72.072734] (-) TimerEvent: {}
+[72.173354] (-) TimerEvent: {}
+[72.273967] (-) TimerEvent: {}
+[72.374454] (-) TimerEvent: {}
+[72.474974] (-) TimerEvent: {}
+[72.575632] (-) TimerEvent: {}
+[72.676194] (-) TimerEvent: {}
+[72.776875] (-) TimerEvent: {}
+[72.877375] (-) TimerEvent: {}
+[72.977927] (-) TimerEvent: {}
+[73.078565] (-) TimerEvent: {}
+[73.179120] (-) TimerEvent: {}
+[73.279779] (-) TimerEvent: {}
+[73.380268] (-) TimerEvent: {}
+[73.480801] (-) TimerEvent: {}
+[73.581412] (-) TimerEvent: {}
+[73.681991] (-) TimerEvent: {}
+[73.782658] (-) TimerEvent: {}
+[73.883226] (-) TimerEvent: {}
+[73.984002] (-) TimerEvent: {}
+[74.084587] (-) TimerEvent: {}
+[74.185324] (-) TimerEvent: {}
+[74.285846] (-) TimerEvent: {}
+[74.386429] (-) TimerEvent: {}
+[74.486923] (-) TimerEvent: {}
+[74.587556] (-) TimerEvent: {}
+[74.688196] (-) TimerEvent: {}
+[74.788802] (-) TimerEvent: {}
+[74.889572] (-) TimerEvent: {}
+[74.990200] (-) TimerEvent: {}
+[75.091041] (-) TimerEvent: {}
+[75.191699] (-) TimerEvent: {}
+[75.292457] (-) TimerEvent: {}
+[75.393070] (-) TimerEvent: {}
+[75.493799] (-) TimerEvent: {}
+[75.594342] (-) TimerEvent: {}
+[75.694928] (-) TimerEvent: {}
+[75.795588] (-) TimerEvent: {}
+[75.896216] (-) TimerEvent: {}
+[75.997022] (-) TimerEvent: {}
+[76.097741] (-) TimerEvent: {}
+[76.198444] (-) TimerEvent: {}
+[76.299033] (-) TimerEvent: {}
+[76.399666] (-) TimerEvent: {}
+[76.500260] (-) TimerEvent: {}
+[76.601007] (-) TimerEvent: {}
+[76.701567] (-) TimerEvent: {}
+[76.802114] (-) TimerEvent: {}
+[76.902752] (-) TimerEvent: {}
+[77.003342] (-) TimerEvent: {}
+[77.103982] (-) TimerEvent: {}
+[77.204541] (-) TimerEvent: {}
+[77.305329] (-) TimerEvent: {}
+[77.406061] (-) TimerEvent: {}
+[77.507543] (-) TimerEvent: {}
+[77.608145] (-) TimerEvent: {}
+[77.708707] (-) TimerEvent: {}
+[77.809346] (-) TimerEvent: {}
+[77.909928] (-) TimerEvent: {}
+[78.010617] (-) TimerEvent: {}
+[78.111175] (-) TimerEvent: {}
+[78.211891] (-) TimerEvent: {}
+[78.312509] (-) TimerEvent: {}
+[78.413206] (-) TimerEvent: {}
+[78.513761] (-) TimerEvent: {}
+[78.614288] (-) TimerEvent: {}
+[78.714919] (-) TimerEvent: {}
+[78.815478] (-) TimerEvent: {}
+[78.916150] (-) TimerEvent: {}
+[79.016780] (-) TimerEvent: {}
+[79.117443] (-) TimerEvent: {}
+[79.218041] (-) TimerEvent: {}
+[79.318848] (-) TimerEvent: {}
+[79.419379] (-) TimerEvent: {}
+[79.519997] (-) TimerEvent: {}
+[79.620526] (-) TimerEvent: {}
+[79.726479] (-) TimerEvent: {}
+[79.827154] (-) TimerEvent: {}
+[79.927694] (-) TimerEvent: {}
+[80.028467] (-) TimerEvent: {}
+[80.128942] (-) TimerEvent: {}
+[80.229573] (-) TimerEvent: {}
+[80.330129] (-) TimerEvent: {}
+[80.430759] (-) TimerEvent: {}
+[80.531247] (-) TimerEvent: {}
+[80.631717] (-) TimerEvent: {}
+[80.732231] (-) TimerEvent: {}
+[80.832790] (-) TimerEvent: {}
+[80.933425] (-) TimerEvent: {}
+[81.034062] (-) TimerEvent: {}
+[81.134725] (-) TimerEvent: {}
+[81.235320] (-) TimerEvent: {}
+[81.335930] (-) TimerEvent: {}
+[81.436447] (-) TimerEvent: {}
+[81.537063] (-) TimerEvent: {}
+[81.637580] (-) TimerEvent: {}
+[81.738086] (-) TimerEvent: {}
+[81.838568] (-) TimerEvent: {}
+[81.939061] (-) TimerEvent: {}
+[82.039729] (-) TimerEvent: {}
+[82.140291] (-) TimerEvent: {}
+[82.240929] (-) TimerEvent: {}
+[82.341464] (-) TimerEvent: {}
+[82.442176] (-) TimerEvent: {}
+[82.542700] (-) TimerEvent: {}
+[82.643261] (-) TimerEvent: {}
+[82.743759] (-) TimerEvent: {}
+[82.844291] (-) TimerEvent: {}
+[82.944919] (-) TimerEvent: {}
+[83.045449] (-) TimerEvent: {}
+[83.146005] (-) TimerEvent: {}
+[83.246616] (-) TimerEvent: {}
+[83.347419] (-) TimerEvent: {}
+[83.447997] (-) TimerEvent: {}
+[83.548742] (-) TimerEvent: {}
+[83.649317] (-) TimerEvent: {}
+[83.749976] (-) TimerEvent: {}
+[83.850586] (-) TimerEvent: {}
+[83.951183] (-) TimerEvent: {}
+[84.051807] (-) TimerEvent: {}
+[84.152407] (-) TimerEvent: {}
+[84.253188] (-) TimerEvent: {}
+[84.353794] (-) TimerEvent: {}
+[84.454593] (-) TimerEvent: {}
+[84.555181] (-) TimerEvent: {}
+[84.655938] (-) TimerEvent: {}
+[84.756534] (-) TimerEvent: {}
+[84.857251] (-) TimerEvent: {}
+[84.957815] (-) TimerEvent: {}
+[85.058415] (-) TimerEvent: {}
+[85.158972] (-) TimerEvent: {}
+[85.259568] (-) TimerEvent: {}
+[85.360266] (-) TimerEvent: {}
+[85.460845] (-) TimerEvent: {}
+[85.561516] (-) TimerEvent: {}
+[85.662120] (-) TimerEvent: {}
+[85.762792] (-) TimerEvent: {}
+[85.863389] (-) TimerEvent: {}
+[85.964110] (-) TimerEvent: {}
+[86.064656] (-) TimerEvent: {}
+[86.165227] (-) TimerEvent: {}
+[86.265880] (-) TimerEvent: {}
+[86.366480] (-) TimerEvent: {}
+[86.467171] (-) TimerEvent: {}
+[86.567648] (-) TimerEvent: {}
+[86.668384] (-) TimerEvent: {}
+[86.769258] (-) TimerEvent: {}
+[86.869835] (-) TimerEvent: {}
+[86.988398] (-) TimerEvent: {}
+[87.089109] (-) TimerEvent: {}
+[87.189756] (-) TimerEvent: {}
+[87.290498] (-) TimerEvent: {}
+[87.391098] (-) TimerEvent: {}
+[87.491861] (-) TimerEvent: {}
+[87.592506] (-) TimerEvent: {}
+[87.693031] (-) TimerEvent: {}
+[87.793662] (-) TimerEvent: {}
+[87.894503] (-) TimerEvent: {}
+[87.995599] (-) TimerEvent: {}
+[88.096292] (-) TimerEvent: {}
+[88.197312] (-) TimerEvent: {}
+[88.297939] (-) TimerEvent: {}
+[88.398454] (-) TimerEvent: {}
+[88.499054] (-) TimerEvent: {}
+[88.599868] (-) TimerEvent: {}
+[88.700451] (-) TimerEvent: {}
+[88.800966] (-) TimerEvent: {}
+[88.901543] (-) TimerEvent: {}
+[89.002054] (-) TimerEvent: {}
+[89.102609] (-) TimerEvent: {}
+[89.203132] (-) TimerEvent: {}
+[89.303763] (-) TimerEvent: {}
+[89.404359] (-) TimerEvent: {}
+[89.505091] (-) TimerEvent: {}
+[89.605885] (-) TimerEvent: {}
+[89.707092] (-) TimerEvent: {}
+[89.808252] (-) TimerEvent: {}
+[89.909272] (-) TimerEvent: {}
+[90.009794] (-) TimerEvent: {}
+[90.110350] (-) TimerEvent: {}
+[90.211094] (-) TimerEvent: {}
+[90.311964] (-) TimerEvent: {}
+[90.412795] (-) TimerEvent: {}
+[90.513498] (-) TimerEvent: {}
+[90.614155] (-) TimerEvent: {}
+[90.714647] (-) TimerEvent: {}
+[90.815115] (-) TimerEvent: {}
+[90.915612] (-) TimerEvent: {}
+[91.016288] (-) TimerEvent: {}
+[91.116942] (-) TimerEvent: {}
+[91.217577] (-) TimerEvent: {}
+[91.318118] (-) TimerEvent: {}
+[91.418572] (-) TimerEvent: {}
+[91.519109] (-) TimerEvent: {}
+[91.619759] (-) TimerEvent: {}
+[91.687615] (ros1_bridge) StderrLine: {'line': b'/usr/bin/ld: warning: libconsole_bridge.so.0.4, needed by /opt/ros/noetic/lib/libcpp_common.so, may conflict with libconsole_bridge.so.1.0\n'}
+[91.688223] (ros1_bridge) StderrLine: {'line': b"/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'\n"}
+[91.688589] (ros1_bridge) StderrLine: {'line': b"/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'\n"}
+[91.688887] (ros1_bridge) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[91.690605] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/dynamic_bridge.dir/build.make:448: dynamic_bridge] Error 1\n'}
+[91.691141] (ros1_bridge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/dynamic_bridge.dir/all] Error 2\n'}
+[91.691422] (ros1_bridge) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[91.719891] (-) TimerEvent: {}
+[91.820438] (-) TimerEvent: {}
+[91.920944] (-) TimerEvent: {}
+[92.021433] (-) TimerEvent: {}
+[92.089367] (ros1_bridge) StderrLine: {'line': b"/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'\n"}
+[92.089805] (ros1_bridge) StderrLine: {'line': b"/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'\n"}
+[92.090199] (ros1_bridge) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[92.092347] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/parameter_bridge.dir/build.make:448: parameter_bridge] Error 1\n'}
+[92.092739] (ros1_bridge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/parameter_bridge.dir/all] Error 2\n'}
+[92.107637] (ros1_bridge) StderrLine: {'line': b"/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'\n"}
+[92.108031] (ros1_bridge) StderrLine: {'line': b"/usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'\n"}
+[92.108267] (ros1_bridge) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[92.110555] (ros1_bridge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/static_bridge.dir/build.make:448: static_bridge] Error 1\n'}
+[92.112129] (ros1_bridge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/static_bridge.dir/all] Error 2\n'}
+[92.112464] (ros1_bridge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[92.117576] (ros1_bridge) CommandEnded: {'returncode': 2}
+[92.126170] (-) TimerEvent: {}
+[92.227594] (-) TimerEvent: {}
+[92.328101] (-) TimerEvent: {}
+[92.428580] (-) TimerEvent: {}
+[92.529006] (-) TimerEvent: {}
+[92.629679] (-) TimerEvent: {}
+[92.730031] (-) TimerEvent: {}
+[92.830878] (-) TimerEvent: {}
+[92.931216] (-) TimerEvent: {}
+[93.031608] (-) TimerEvent: {}
+[93.116611] (ros1_bridge) JobEnded: {'identifier': 'ros1_bridge', 'rc': 2}
+[93.128679] (-) EventReactorShutdown: {}

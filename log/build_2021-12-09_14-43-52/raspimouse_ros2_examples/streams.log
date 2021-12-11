@@ -1,0 +1,61 @@
+[0.056s] Invoking command in '/home/yonathanarya/colcon_ws/build/raspimouse_ros2_examples': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/yonathanarya/colcon_ws/src/raspimouse_ros2_examples -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/raspimouse_ros2_examples
+[1.589s] -- The C compiler identification is GNU 9.3.0
+[1.592s] -- The CXX compiler identification is GNU 9.3.0
+[1.592s] -- Check for working C compiler: /usr/bin/cc
+[1.593s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.593s] -- Detecting C compiler ABI info
+[1.593s] -- Detecting C compiler ABI info - done
+[1.595s] -- Detecting C compile features
+[1.598s] -- Detecting C compile features - done
+[1.599s] -- Check for working CXX compiler: /usr/bin/c++
+[1.599s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.599s] -- Detecting CXX compiler ABI info
+[1.599s] -- Detecting CXX compiler ABI info - done
+[1.600s] -- Detecting CXX compile features
+[1.600s] -- Detecting CXX compile features - done
+[1.600s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.600s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.600s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.600s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.601s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.601s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.601s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.601s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.609s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.610s] -- Looking for pthread.h
+[1.708s] -- Looking for pthread.h - found
+[1.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.880s] -- Looking for pthread_create in pthreads
+[1.987s] -- Looking for pthread_create in pthreads - not found
+[1.988s] -- Looking for pthread_create in pthread
+[2.153s] -- Looking for pthread_create in pthread - found
+[2.153s] -- Found Threads: TRUE  
+[2.500s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.590s] -- Found rclcpp_lifecycle: 2.4.0 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.643s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.651s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.834s] -- Found OpenCV: /usr (found version "4.2.0") 
+[2.849s] CMake Error at CMakeLists.txt:30 (find_package):
+[2.849s]   By not providing "Findraspimouse_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.849s]   project has asked CMake to find a package configuration file provided by
+[2.849s]   "raspimouse_msgs", but CMake did not find one.
+[2.849s] 
+[2.850s]   Could not find a package configuration file provided by "raspimouse_msgs"
+[2.850s]   with any of the following names:
+[2.850s] 
+[2.850s]     raspimouse_msgsConfig.cmake
+[2.850s]     raspimouse_msgs-config.cmake
+[2.850s] 
+[2.850s]   Add the installation prefix of "raspimouse_msgs" to CMAKE_PREFIX_PATH or
+[2.851s]   set "raspimouse_msgs_DIR" to a directory containing one of the above files.
+[2.851s]   If "raspimouse_msgs" provides a separate development package or SDK, be
+[2.851s]   sure it has been installed.
+[2.851s] 
+[2.851s] 
+[2.851s] -- Configuring incomplete, errors occurred!
+[2.852s] See also "/home/yonathanarya/colcon_ws/build/raspimouse_ros2_examples/CMakeFiles/CMakeOutput.log".
+[2.852s] See also "/home/yonathanarya/colcon_ws/build/raspimouse_ros2_examples/CMakeFiles/CMakeError.log".
+[2.862s] Invoked command in '/home/yonathanarya/colcon_ws/build/raspimouse_ros2_examples' returned '1': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/yonathanarya/colcon_ws/src/raspimouse_ros2_examples -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/raspimouse_ros2_examples

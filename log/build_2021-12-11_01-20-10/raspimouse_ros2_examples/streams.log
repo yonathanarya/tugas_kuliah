@@ -1,0 +1,34 @@
+[0.137s] Invoking command in '/home/yonathanarya/colcon_ws/build/raspimouse_ros2_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake /home/yonathanarya/colcon_ws/src/raspimouse_ros2_examples -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/raspimouse_ros2_examples
+[2.165s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.173s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.175s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.175s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.176s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.176s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.176s] -- Found rclcpp_lifecycle: 2.4.0 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.176s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.177s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.461s] CMake Error at CMakeLists.txt:30 (find_package):
+[2.463s]   By not providing "Findraspimouse_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.464s]   project has asked CMake to find a package configuration file provided by
+[2.464s]   "raspimouse_msgs", but CMake did not find one.
+[2.464s] 
+[2.465s]   Could not find a package configuration file provided by "raspimouse_msgs"
+[2.465s]   with any of the following names:
+[2.465s] 
+[2.466s]     raspimouse_msgsConfig.cmake
+[2.466s]     raspimouse_msgs-config.cmake
+[2.468s] 
+[2.468s]   Add the installation prefix of "raspimouse_msgs" to CMAKE_PREFIX_PATH or
+[2.468s]   set "raspimouse_msgs_DIR" to a directory containing one of the above files.
+[2.469s]   If "raspimouse_msgs" provides a separate development package or SDK, be
+[2.469s]   sure it has been installed.
+[2.469s] 
+[2.469s] 
+[2.480s] -- Configuring incomplete, errors occurred!
+[2.480s] See also "/home/yonathanarya/colcon_ws/build/raspimouse_ros2_examples/CMakeFiles/CMakeOutput.log".
+[2.481s] See also "/home/yonathanarya/colcon_ws/build/raspimouse_ros2_examples/CMakeFiles/CMakeError.log".
+[2.530s] Invoked command in '/home/yonathanarya/colcon_ws/build/raspimouse_ros2_examples' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake /home/yonathanarya/colcon_ws/src/raspimouse_ros2_examples -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/raspimouse_ros2_examples

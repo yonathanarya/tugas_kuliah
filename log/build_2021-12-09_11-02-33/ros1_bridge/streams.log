@@ -1,0 +1,863 @@
+[0.014s] Invoking command in '/home/yonathanarya/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/raspimouse_description:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node LD_LIBRARY_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/yonathanarya/colcon_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/ros1_bridge
+[0.074s] -- The C compiler identification is GNU 9.3.0
+[0.126s] -- The CXX compiler identification is GNU 9.3.0
+[0.131s] -- Check for working C compiler: /usr/bin/cc
+[0.197s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.198s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.281s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.284s] -- Check for working CXX compiler: /usr/bin/c++
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.363s] -- Detecting CXX compiler ABI info
+[0.439s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Detecting CXX compile features
+[0.452s] -- Detecting CXX compile features - done
+[0.455s] -- Found rmw: 1.0.3 (/opt/ros/foxy/share/rmw/cmake)
+[0.485s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.485s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.688s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.736s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.768s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.881s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.957s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.010s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.012s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.013s] -- Looking for pthread.h
+[1.087s] -- Looking for pthread.h - found
+[1.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.173s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.173s] -- Looking for pthread_create in pthreads
+[1.243s] -- Looking for pthread_create in pthreads - not found
+[1.243s] -- Looking for pthread_create in pthread
+[1.314s] -- Looking for pthread_create in pthread - found
+[1.315s] -- Found Threads: TRUE  
+[1.469s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.473s] -- Checking for module 'roscpp'
+[1.491s] --   Found roscpp, version 1.15.13
+[1.541s] -- Checking for module 'std_msgs'
+[1.561s] --   Found std_msgs, version 0.5.13
+[2.227s] -- Checking for module 'actionlib'
+[2.246s] --   Found actionlib, version 1.13.2
+[2.297s] -- Checking for module 'actionlib_msgs'
+[2.315s] --   Found actionlib_msgs, version 1.13.1
+[2.361s] -- Checking for module 'actionlib_tutorials'
+[2.379s] --   Found actionlib_tutorials, version 0.2.0
+[2.429s] -- Checking for module 'base_local_planner'
+[2.452s] --   Found base_local_planner, version 1.17.1
+[2.535s] -- Checking for module 'bond'
+[2.552s] --   Found bond, version 1.8.6
+[2.597s] -- Checking for module 'control_msgs'
+[2.614s] --   Found control_msgs, version 1.5.2
+[2.661s] -- Checking for module 'controller_manager_msgs'
+[2.678s] --   Found controller_manager_msgs, version 0.19.5
+[2.722s] -- Checking for module 'costmap_2d'
+[2.740s] --   Found costmap_2d, version 1.17.1
+[2.811s] -- Checking for module 'diagnostic_msgs'
+[2.828s] --   Found diagnostic_msgs, version 1.13.1
+[2.876s] -- Checking for module 'dynamic_reconfigure'
+[2.897s] --   Found dynamic_reconfigure, version 1.7.1
+[2.945s] -- Checking for module 'gazebo_msgs'
+[2.963s] --   Found gazebo_msgs, version 2.9.2
+[3.008s] -- Checking for module 'gazebo_video_monitor_msgs'
+[3.025s] --   Found gazebo_video_monitor_msgs, version 0.7.0
+[3.075s] -- Checking for module 'geographic_msgs'
+[3.094s] --   Found geographic_msgs, version 0.5.6
+[3.144s] -- Checking for module 'geometry_msgs'
+[3.163s] --   Found geometry_msgs, version 1.13.1
+[3.208s] -- Checking for module 'map_msgs'
+[3.225s] --   Found map_msgs, version 1.14.1
+[3.273s] -- Checking for module 'mavros_msgs'
+[3.290s] --   Found mavros_msgs, version 1.12.1
+[3.337s] -- Checking for module 'move_base_msgs'
+[3.356s] --   Found move_base_msgs, version 1.14.1
+[3.403s] -- Checking for module 'nav_msgs'
+[3.421s] --   Found nav_msgs, version 1.13.1
+[3.469s] -- Checking for module 'pcl_msgs'
+[3.486s] --   Found pcl_msgs, version 0.3.0
+[3.532s] -- Checking for module 'pr2_msgs'
+[3.550s] --   Found pr2_msgs, version 1.13.0
+[3.596s] -- Checking for module 'py_trees_msgs'
+[3.613s] --   Found py_trees_msgs, version 0.3.7
+[3.664s] -- Checking for module 'rosgraph_msgs'
+[3.683s] --   Found rosgraph_msgs, version 1.11.3
+[3.727s] -- Checking for module 'rosmon_msgs'
+[3.747s] --   Found rosmon_msgs, version 2.4.0
+[3.795s] -- Checking for module 'rospy_tutorials'
+[3.815s] --   Found rospy_tutorials, version 0.10.2
+[3.863s] -- Checking for module 'rosserial_arduino'
+[3.883s] --   Found rosserial_arduino, version 0.9.2
+[3.935s] -- Checking for module 'rosserial_msgs'
+[3.954s] --   Found rosserial_msgs, version 0.9.2
+[3.999s] -- Checking for module 'sensor_msgs'
+[4.016s] --   Found sensor_msgs, version 1.13.1
+[4.066s] -- Checking for module 'shape_msgs'
+[4.085s] --   Found shape_msgs, version 1.13.1
+[4.133s] -- Checking for module 'smach_msgs'
+[4.152s] --   Found smach_msgs, version 2.5.0
+[4.203s] -- Checking for module 'stereo_msgs'
+[4.221s] --   Found stereo_msgs, version 1.13.1
+[4.268s] -- Checking for module 'tf'
+[4.287s] --   Found tf, version 1.13.2
+[4.344s] -- Checking for module 'tf2_msgs'
+[4.364s] --   Found tf2_msgs, version 0.7.5
+[4.412s] -- Checking for module 'theora_image_transport'
+[4.429s] --   Found theora_image_transport, version 1.14.0
+[4.476s] -- Checking for module 'trajectory_msgs'
+[4.495s] --   Found trajectory_msgs, version 1.13.1
+[4.541s] -- Checking for module 'turtle_actionlib'
+[4.559s] --   Found turtle_actionlib, version 0.2.0
+[4.602s] -- Checking for module 'turtlebot3_example'
+[4.620s] --   Found turtlebot3_example, version 1.2.5
+[4.683s] -- Checking for module 'turtlebot3_msgs'
+[4.700s] --   Found turtlebot3_msgs, version 1.0.1
+[4.747s] -- Checking for module 'turtlesim'
+[4.765s] --   Found turtlesim, version 0.10.2
+[4.810s] -- Checking for module 'urg_node'
+[4.828s] --   Found urg_node, version 0.1.15
+[4.894s] -- Checking for module 'uuid_msgs'
+[4.911s] --   Found uuid_msgs, version 1.0.6
+[4.958s] -- Checking for module 'variant_msgs'
+[4.977s] --   Found variant_msgs, version 0.1.6
+[5.023s] -- Checking for module 'visualization_msgs'
+[5.041s] --   Found visualization_msgs, version 1.13.1
+[5.090s] -- Checking for module 'control_toolbox'
+[5.109s] --   Found control_toolbox, version 1.18.2
+[5.166s] -- Checking for module 'laser_assembler'
+[5.186s] --   Found laser_assembler, version 1.7.8
+[5.258s] -- Checking for module 'navfn'
+[5.281s] --   Found navfn, version 1.17.1
+[5.360s] -- Checking for module 'polled_camera'
+[5.378s] --   Found polled_camera, version 1.12.0
+[5.435s] -- Checking for module 'pr2_power_board'
+[5.454s] --   Found pr2_power_board, version 1.1.10
+[5.506s] -- Checking for module 'roscpp_tutorials'
+[5.525s] --   Found roscpp_tutorials, version 0.10.2
+[5.572s] -- Checking for module 'rviz'
+[5.592s] --   Found rviz, version 1.14.11
+[5.671s] -- Checking for module 'std_srvs'
+[5.691s] --   Found std_srvs, version 1.11.3
+[5.739s] -- Checking for module 'topic_tools'
+[5.759s] --   Found topic_tools, version 1.15.13
+[5.811s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.814s] -- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[5.862s] -- Checking for module 'roslaunch'
+[5.883s] --   Found roslaunch, version 1.15.13
+[6.024s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.051s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.059s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.059s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.059s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.090s] -- Found PythonExtra: .so  
+[6.148s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.151s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.151s] -- Configured cppcheck include dirs: 
+[6.151s] -- Configured cppcheck exclude dirs and/or files: 
+[6.154s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.154s] -- Configured cpplint exclude dirs and/or files: 
+[6.155s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.156s] -- Added test 'lint_cmake' to check CMake code style
+[6.157s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.160s] -- Added test 'uncrustify' to check C / C++ code style
+[6.160s] -- Configured uncrustify additional arguments: 
+[6.160s] -- Added test 'xmllint' to check XML markup files
+[6.271s] -- Found turtlebot3_act_interfaces: 1.0.0 (/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/share/turtlebot3_act_interfaces/cmake)
+[6.271s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[6.330s] -- Found action_tutorials_interfaces: 0.9.3 (/opt/ros/foxy/share/action_tutorials_interfaces/cmake)
+[6.372s] -- Found actionlib_msgs: 2.0.4 (/opt/ros/foxy/share/actionlib_msgs/cmake)
+[6.372s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[6.487s] -- Found cartographer_ros_msgs: 1.0.9003 (/opt/ros/foxy/share/cartographer_ros_msgs/cmake)
+[6.523s] -- Found composition_interfaces: 1.0.0 (/opt/ros/foxy/share/composition_interfaces/cmake)
+[6.829s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[6.851s] -- Found controller_manager_msgs: 0.8.1 (/opt/ros/foxy/share/controller_manager_msgs/cmake)
+[6.851s] -- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[7.195s] -- Found dwb_msgs: 0.4.7 (/opt/ros/foxy/share/dwb_msgs/cmake)
+[7.257s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[7.389s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[7.390s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[7.391s] -- Found libstatistics_collector: 1.0.1 (/opt/ros/foxy/share/libstatistics_collector/cmake)
+[7.404s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[7.415s] -- Found logging_demo: 0.9.3 (/opt/ros/foxy/share/logging_demo/cmake)
+[7.675s] -- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)
+[7.892s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[7.893s] -- Found nav_2d_msgs: 0.4.7 (/opt/ros/foxy/share/nav_2d_msgs/cmake)
+[7.893s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[8.010s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[8.027s] -- Found pendulum_msgs: 0.9.3 (/opt/ros/foxy/share/pendulum_msgs/cmake)
+[8.028s] -- Found rcl_interfaces: 1.0.0 (/opt/ros/foxy/share/rcl_interfaces/cmake)
+[8.043s] -- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+[8.044s] -- Found rosgraph_msgs: 1.0.0 (/opt/ros/foxy/share/rosgraph_msgs/cmake)
+[8.044s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.111s] -- Found shape_msgs: 2.0.4 (/opt/ros/foxy/share/shape_msgs/cmake)
+[8.730s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[8.734s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[8.851s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[8.854s] -- Found OGRE
+[8.854s] --   static     : OFF
+[8.854s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[8.855s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.855s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[8.855s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[8.855s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[8.855s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.855s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[8.855s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.855s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.855s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.856s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.879s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[8.885s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[8.993s] -- Found X11: /usr/include   
+[8.994s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[9.068s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[9.069s] -- Looking for gethostbyname
+[9.135s] -- Looking for gethostbyname - found
+[9.135s] -- Looking for connect
+[9.200s] -- Looking for connect - found
+[9.201s] -- Looking for remove
+[9.267s] -- Looking for remove - found
+[9.268s] -- Looking for shmat
+[9.335s] -- Looking for shmat - found
+[9.335s] -- Looking for IceConnectionNumber in ICE
+[9.406s] -- Looking for IceConnectionNumber in ICE - found
+[9.409s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[9.409s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[9.502s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[9.585s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[9.767s] -- Found slam_toolbox: 2.4.1 (/opt/ros/foxy/share/slam_toolbox/cmake)
+[9.767s] -- Found statistics_msgs: 1.0.0 (/opt/ros/foxy/share/statistics_msgs/cmake)
+[9.768s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[9.769s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[9.891s] -- Found stereo_msgs: 2.0.4 (/opt/ros/foxy/share/stereo_msgs/cmake)
+[9.959s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[9.960s] -- Found tf2_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[9.961s] -- Found trajectory_msgs: 2.0.4 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[10.053s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[10.113s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[10.113s] -- Found unique_identifier_msgs: 2.1.3 (/opt/ros/foxy/share/unique_identifier_msgs/cmake)
+[10.114s] -- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[10.279s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[10.685s] -- Configuring done
+[10.790s] CMake Warning at CMakeLists.txt:148 (add_executable):
+[10.790s]   Cannot generate a safe runtime search path for target static_bridge because
+[10.790s]   files in some directories may conflict with libraries in implicit
+[10.791s]   directories:
+[10.791s] 
+[10.791s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.791s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.791s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.791s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.791s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.791s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.792s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.792s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.792s] 
+[10.792s]   Some of these libraries may not be found correctly.
+[10.792s] Call Stack (most recent call first):
+[10.792s]   CMakeLists.txt:194 (custom_executable)
+[10.792s] 
+[10.792s] 
+[10.793s] CMake Warning at CMakeLists.txt:148 (add_executable):
+[10.793s]   Cannot generate a safe runtime search path for target static_bridge because
+[10.793s]   there is a cycle in the constraint graph:
+[10.793s] 
+[10.793s]     dir 0 is [/opt/ros/noetic/lib]
+[10.793s]       dir 3 must precede it due to runtime library [liburdf.so]
+[10.793s]     dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+[10.793s]     dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+[10.794s]     dir 3 is [/opt/ros/foxy/lib]
+[10.794s]       dir 0 must precede it due to runtime library [liblayers.so]
+[10.794s]     dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[10.794s]     dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[10.794s]     dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[10.794s] 
+[10.794s]   Some of these libraries may not be found correctly.
+[10.795s] Call Stack (most recent call first):
+[10.795s]   CMakeLists.txt:194 (custom_executable)
+[10.795s] 
+[10.795s] 
+[10.913s] CMake Warning at CMakeLists.txt:177 (add_library):
+[10.913s]   Cannot generate a safe runtime search path for target ros1_bridge because
+[10.913s]   files in some directories may conflict with libraries in implicit
+[10.913s]   directories:
+[10.913s] 
+[10.913s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.913s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.913s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.914s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.914s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.914s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.914s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.914s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.914s] 
+[10.914s]   Some of these libraries may not be found correctly.
+[10.914s] 
+[10.914s] 
+[10.914s] CMake Warning at CMakeLists.txt:177 (add_library):
+[10.914s]   Cannot generate a safe runtime search path for target ros1_bridge because
+[10.914s]   there is a cycle in the constraint graph:
+[10.915s] 
+[10.915s]     dir 0 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+[10.915s]     dir 1 is [/opt/ros/foxy/lib]
+[10.915s]       dir 2 must precede it due to runtime library [liblayers.so]
+[10.915s]     dir 2 is [/opt/ros/noetic/lib]
+[10.915s]       dir 1 must precede it due to runtime library [liburdf.so]
+[10.915s]     dir 3 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[10.915s]     dir 4 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[10.915s]     dir 5 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[10.915s] 
+[10.915s]   Some of these libraries may not be found correctly.
+[10.915s] 
+[10.915s] 
+[10.997s] CMake Warning at CMakeLists.txt:148 (add_executable):
+[10.998s]   Cannot generate a safe runtime search path for target parameter_bridge
+[10.998s]   because files in some directories may conflict with libraries in implicit
+[10.998s]   directories:
+[10.998s] 
+[10.998s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.998s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.998s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.998s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.998s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.998s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.998s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[10.999s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[10.999s] 
+[10.999s]   Some of these libraries may not be found correctly.
+[10.999s] Call Stack (most recent call first):
+[10.999s]   CMakeLists.txt:201 (custom_executable)
+[10.999s] 
+[10.999s] 
+[10.999s] CMake Warning at CMakeLists.txt:148 (add_executable):
+[10.999s]   Cannot generate a safe runtime search path for target parameter_bridge
+[10.999s]   because there is a cycle in the constraint graph:
+[10.999s] 
+[10.999s]     dir 0 is [/opt/ros/noetic/lib]
+[11.000s]       dir 3 must precede it due to runtime library [liburdf.so]
+[11.000s]     dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+[11.000s]     dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+[11.000s]     dir 3 is [/opt/ros/foxy/lib]
+[11.000s]       dir 0 must precede it due to runtime library [liblayers.so]
+[11.000s]     dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[11.000s]     dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[11.000s]     dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[11.000s] 
+[11.000s]   Some of these libraries may not be found correctly.
+[11.000s] Call Stack (most recent call first):
+[11.000s]   CMakeLists.txt:201 (custom_executable)
+[11.000s] 
+[11.001s] 
+[11.030s] CMake Warning at CMakeLists.txt:148 (add_executable):
+[11.030s]   Cannot generate a safe runtime search path for target dynamic_bridge
+[11.030s]   because files in some directories may conflict with libraries in implicit
+[11.030s]   directories:
+[11.030s] 
+[11.030s]     runtime library [liburdfdom_sensor.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[11.031s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[11.031s]     runtime library [liburdfdom_model_state.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[11.031s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[11.031s]     runtime library [liburdfdom_model.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[11.031s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[11.031s]     runtime library [liburdfdom_world.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[11.031s]       /opt/ros/foxy/lib/x86_64-linux-gnu
+[11.031s] 
+[11.031s]   Some of these libraries may not be found correctly.
+[11.031s] Call Stack (most recent call first):
+[11.031s]   CMakeLists.txt:208 (custom_executable)
+[11.031s] 
+[11.031s] 
+[11.031s] CMake Warning at CMakeLists.txt:148 (add_executable):
+[11.031s]   Cannot generate a safe runtime search path for target dynamic_bridge
+[11.032s]   because there is a cycle in the constraint graph:
+[11.032s] 
+[11.032s]     dir 0 is [/opt/ros/noetic/lib]
+[11.032s]       dir 3 must precede it due to runtime library [liburdf.so]
+[11.032s]     dir 1 is [/home/yonathanarya/colcon_ws/build/ros1_bridge]
+[11.032s]     dir 2 is [/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib]
+[11.032s]     dir 3 is [/opt/ros/foxy/lib]
+[11.032s]       dir 0 must precede it due to runtime library [liblayers.so]
+[11.032s]     dir 4 is [/opt/ros/foxy/opt/yaml_cpp_vendor/lib]
+[11.032s]     dir 5 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[11.032s]     dir 6 is [/opt/ros/foxy/opt/rviz_ogre_vendor/lib]
+[11.032s] 
+[11.032s]   Some of these libraries may not be found correctly.
+[11.032s] Call Stack (most recent call first):
+[11.033s]   CMakeLists.txt:208 (custom_executable)
+[11.033s] 
+[11.033s] 
+[11.112s] -- Generating done
+[11.120s] -- Build files have been written to: /home/yonathanarya/colcon_ws/build/ros1_bridge
+[11.138s] Invoked command in '/home/yonathanarya/colcon_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/raspimouse_description:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node LD_LIBRARY_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/yonathanarya/colcon_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/ros1_bridge
+[11.144s] Invoking command in '/home/yonathanarya/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/raspimouse_description:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node LD_LIBRARY_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/ros1_bridge -- -j8 -l8
+[11.244s] [35m[1mScanning dependencies of target test_ros1_client[0m
+[11.245s] [35m[1mScanning dependencies of target simple_bridge_1_to_2[0m
+[11.245s] [35m[1mScanning dependencies of target test_ros1_server[0m
+[11.246s] [35m[1mScanning dependencies of target test_ros2_server_cpp[0m
+[11.246s] [35m[1mScanning dependencies of target simple_bridge_2_to_1[0m
+[11.246s] [35m[1mScanning dependencies of target test_ros2_client_cpp[0m
+[11.247s] [35m[1mScanning dependencies of target simple_bridge[0m
+[11.272s] [  1%] [34m[1mGenerating factories for interface types[0m
+[11.291s] [  1%] [32mBuilding CXX object CMakeFiles/test_ros1_server.dir/test/test_ros1_server.cpp.o[0m
+[11.294s] [  1%] [32mBuilding CXX object CMakeFiles/test_ros1_client.dir/test/test_ros1_client.cpp.o[0m
+[11.346s] [  1%] [32mBuilding CXX object CMakeFiles/test_ros2_client_cpp.dir/test/test_ros2_client.cpp.o[0m
+[11.351s] [  1%] [32mBuilding CXX object CMakeFiles/test_ros2_server_cpp.dir/test/test_ros2_server.cpp.o[0m
+[11.364s] [  1%] [32mBuilding CXX object CMakeFiles/simple_bridge_2_to_1.dir/src/simple_bridge_2_to_1.cpp.o[0m
+[11.368s] [  1%] [32mBuilding CXX object CMakeFiles/simple_bridge_1_to_2.dir/src/simple_bridge_1_to_2.cpp.o[0m
+[11.369s] [  1%] [32mBuilding CXX object CMakeFiles/simple_bridge.dir/src/simple_bridge.cpp.o[0m
+[16.141s] [  2%] [32m[1mLinking CXX executable test_ros2_server_cpp[0m
+[16.382s] [  2%] [32m[1mLinking CXX executable test_ros1_client[0m
+[16.466s] [  3%] [32m[1mLinking CXX executable test_ros1_server[0m
+[16.488s] [  3%] Built target test_ros2_server_cpp
+[16.707s] [  3%] Built target test_ros1_client
+[16.777s] [  3%] Built target test_ros1_server
+[17.023s] [  3%] [32m[1mLinking CXX executable test_ros2_client_cpp[0m
+[17.244s] [  3%] Built target test_ros2_client_cpp
+[19.687s] [  4%] [32m[1mLinking CXX executable simple_bridge_1_to_2[0m
+[20.065s] [  4%] Built target simple_bridge_1_to_2
+[22.485s] [  4%] [32m[1mLinking CXX executable simple_bridge_2_to_1[0m
+[22.883s] [  4%] Built target simple_bridge_2_to_1
+[22.986s] [  4%] [32m[1mLinking CXX executable simple_bridge[0m
+[23.355s] [  4%] Built target simple_bridge
+[30.119s] [35m[1mScanning dependencies of target ros1_bridge[0m
+[32.922s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/convert_builtin_interfaces.cpp.o[0m
+[32.922s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/builtin_interfaces_factories.cpp.o[0m
+[32.922s] [  4%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/src/bridge.cpp.o[0m
+[32.942s] [  5%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlebot3_act_interfaces_factories.cpp.o[0m
+[32.942s] [  5%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/get_factory.cpp.o[0m
+[32.943s] [  5%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/get_mappings.cpp.o[0m
+[32.944s] [  5%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/action_msgs_factories.cpp.o[0m
+[32.944s] [  6%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/action_msgs__msg__GoalInfo__factories.cpp.o[0m
+[34.277s] [  6%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/action_msgs__msg__GoalStatus__factories.cpp.o[0m
+[34.611s] [  6%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/action_msgs__msg__GoalStatusArray__factories.cpp.o[0m
+[39.537s] [  6%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/action_msgs__srv__CancelGoal__factories.cpp.o[0m
+[40.465s] [  6%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/action_tutorials_interfaces_factories.cpp.o[0m
+[40.754s] [  7%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/actionlib_msgs_factories.cpp.o[0m
+[40.856s] [  7%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/actionlib_msgs__msg__GoalID__factories.cpp.o[0m
+[41.902s] [  7%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/actionlib_msgs__msg__GoalStatus__factories.cpp.o[0m
+[42.418s] [  7%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/actionlib_msgs__msg__GoalStatusArray__factories.cpp.o[0m
+[44.142s] [  8%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs_factories.cpp.o[0m
+[47.156s] [  8%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__LandmarkEntry__factories.cpp.o[0m
+[47.933s] [  8%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__LandmarkList__factories.cpp.o[0m
+[48.788s] [  8%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__SensorTopics__factories.cpp.o[0m
+[51.758s] [  9%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__StatusCode__factories.cpp.o[0m
+[53.445s] [  9%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__StatusResponse__factories.cpp.o[0m
+[54.749s] [  9%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__SubmapEntry__factories.cpp.o[0m
+[55.553s] [  9%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__SubmapList__factories.cpp.o[0m
+[56.651s] [  9%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__SubmapTexture__factories.cpp.o[0m
+[57.961s] [ 10%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__msg__TrajectoryOptions__factories.cpp.o[0m
+[58.767s] [ 10%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__srv__FinishTrajectory__factories.cpp.o[0m
+[59.307s] [ 10%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__srv__StartTrajectory__factories.cpp.o[0m
+[59.676s] [ 10%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__srv__SubmapQuery__factories.cpp.o[0m
+[61.279s] [ 11%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/cartographer_ros_msgs__srv__WriteState__factories.cpp.o[0m
+[62.432s] [ 11%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/composition_interfaces_factories.cpp.o[0m
+[63.138s] [ 11%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/composition_interfaces__srv__LoadNode__factories.cpp.o[0m
+[64.578s] [ 11%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/composition_interfaces__srv__ListNodes__factories.cpp.o[0m
+[65.839s] [ 12%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/composition_interfaces__srv__UnloadNode__factories.cpp.o[0m
+[66.417s] [ 12%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs_factories.cpp.o[0m
+[66.883s] [ 12%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__msg__DynamicJointState__factories.cpp.o[0m
+[67.517s] [ 12%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__msg__GripperCommand__factories.cpp.o[0m
+[68.996s] [ 12%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__msg__InterfaceValue__factories.cpp.o[0m
+[70.128s] [ 13%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__msg__JointControllerState__factories.cpp.o[0m
+[70.887s] [ 13%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__msg__JointJog__factories.cpp.o[0m
+[72.391s] [ 13%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__msg__JointTolerance__factories.cpp.o[0m
+[73.528s] [ 13%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__msg__JointTrajectoryControllerState__factories.cpp.o[0m
+[74.259s] [ 14%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__msg__PidState__factories.cpp.o[0m
+[74.299s] [ 14%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__srv__QueryCalibrationState__factories.cpp.o[0m
+[76.905s] [ 14%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/control_msgs__srv__QueryTrajectoryState__factories.cpp.o[0m
+[84.424s] [ 14%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs_factories.cpp.o[0m
+[84.899s] [ 15%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__msg__ControllerState__factories.cpp.o[0m
+[85.091s] [ 15%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__msg__HardwareInterface__factories.cpp.o[0m
+[86.969s] [ 15%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__ConfigureController__factories.cpp.o[0m
+[87.809s] [ 15%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__ConfigureStartController__factories.cpp.o[0m
+[89.302s] [ 15%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__ListControllers__factories.cpp.o[0m
+[90.571s] [ 16%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__ListControllerTypes__factories.cpp.o[0m
+[90.962s] [ 16%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__ListHardwareInterfaces__factories.cpp.o[0m
+[92.272s] [ 16%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__LoadConfigureController__factories.cpp.o[0m
+[92.430s] [ 16%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__LoadController__factories.cpp.o[0m
+[92.999s] [ 17%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__LoadStartController__factories.cpp.o[0m
+[94.667s] [ 17%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__ReloadControllerLibraries__factories.cpp.o[0m
+[95.431s] [ 17%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__SwitchController__factories.cpp.o[0m
+[98.831s] [ 17%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/controller_manager_msgs__srv__UnloadController__factories.cpp.o[0m
+[99.610s] [ 18%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/diagnostic_msgs_factories.cpp.o[0m
+[100.714s] [ 18%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/diagnostic_msgs__msg__DiagnosticArray__factories.cpp.o[0m
+[100.830s] [ 18%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/diagnostic_msgs__msg__DiagnosticStatus__factories.cpp.o[0m
+[101.348s] [ 18%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/diagnostic_msgs__msg__KeyValue__factories.cpp.o[0m
+[103.123s] [ 19%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/diagnostic_msgs__srv__AddDiagnostics__factories.cpp.o[0m
+[103.131s] [ 19%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/diagnostic_msgs__srv__SelfTest__factories.cpp.o[0m
+[105.465s] [ 19%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs_factories.cpp.o[0m
+[107.684s] [ 19%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__msg__CriticScore__factories.cpp.o[0m
+[109.711s] [ 19%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__msg__LocalPlanEvaluation__factories.cpp.o[0m
+[113.185s] [ 20%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__msg__Trajectory2D__factories.cpp.o[0m
+[113.838s] [ 20%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__msg__TrajectoryScore__factories.cpp.o[0m
+[115.005s] [ 20%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__srv__DebugLocalPlan__factories.cpp.o[0m
+[115.399s] [ 20%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__srv__GenerateTrajectory__factories.cpp.o[0m
+[117.508s] [ 21%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__srv__GenerateTwists__factories.cpp.o[0m
+[117.689s] [ 21%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__srv__GetCriticScore__factories.cpp.o[0m
+[117.830s] [ 21%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/dwb_msgs__srv__ScoreTrajectory__factories.cpp.o[0m
+[118.270s] [ 21%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces_factories.cpp.o[0m
+[120.812s] [ 22%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Bool__factories.cpp.o[0m
+[121.511s] [ 22%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Byte__factories.cpp.o[0m
+[122.536s] [ 22%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__ByteMultiArray__factories.cpp.o[0m
+[123.148s] [ 22%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Char__factories.cpp.o[0m
+[125.152s] [ 22%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Empty__factories.cpp.o[0m
+[125.325s] [ 23%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Float32__factories.cpp.o[0m
+[125.377s] [ 23%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Float32MultiArray__factories.cpp.o[0m
+[125.886s] [ 23%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Float64__factories.cpp.o[0m
+[128.359s] [ 23%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Float64MultiArray__factories.cpp.o[0m
+[129.107s] [ 24%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Int16__factories.cpp.o[0m
+[130.217s] [ 24%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Int16MultiArray__factories.cpp.o[0m
+[130.780s] [ 24%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Int32__factories.cpp.o[0m
+[132.803s] [ 24%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Int32MultiArray__factories.cpp.o[0m
+[132.966s] [ 25%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Int64__factories.cpp.o[0m
+[133.037s] [ 25%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Int64MultiArray__factories.cpp.o[0m
+[133.416s] [ 25%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Int8__factories.cpp.o[0m
+[135.804s] [ 25%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__Int8MultiArray__factories.cpp.o[0m
+[136.626s] [ 25%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__MultiArrayDimension__factories.cpp.o[0m
+[137.850s] [ 26%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__MultiArrayLayout__factories.cpp.o[0m
+[138.640s] [ 26%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__String__factories.cpp.o[0m
+[140.179s] [ 26%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__UInt16__factories.cpp.o[0m
+[140.596s] [ 26%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__UInt16MultiArray__factories.cpp.o[0m
+[140.624s] [ 27%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__UInt32__factories.cpp.o[0m
+[141.053s] [ 27%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__UInt32MultiArray__factories.cpp.o[0m
+[143.376s] [ 27%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__UInt64__factories.cpp.o[0m
+[144.260s] [ 27%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__UInt64MultiArray__factories.cpp.o[0m
+[145.422s] [ 28%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__UInt8__factories.cpp.o[0m
+[146.276s] [ 28%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__UInt8MultiArray__factories.cpp.o[0m
+[147.941s] [ 28%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__msg__WString__factories.cpp.o[0m
+[148.156s] [ 28%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__srv__SetBool__factories.cpp.o[0m
+[148.156s] [ 28%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__srv__AddTwoInts__factories.cpp.o[0m
+[148.704s] [ 29%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/example_interfaces__srv__Trigger__factories.cpp.o[0m
+[150.869s] [ 29%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs_factories.cpp.o[0m
+[151.849s] [ 29%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__ContactState__factories.cpp.o[0m
+[152.936s] [ 29%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__ContactsState__factories.cpp.o[0m
+[153.850s] [ 30%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__EntityState__factories.cpp.o[0m
+[155.644s] [ 30%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__LinkState__factories.cpp.o[0m
+[155.833s] [ 30%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__LinkStates__factories.cpp.o[0m
+[156.393s] [ 30%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__ModelState__factories.cpp.o[0m
+[158.899s] [ 31%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__ModelStates__factories.cpp.o[0m
+[160.025s] [ 31%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__ODEJointProperties__factories.cpp.o[0m
+[161.705s] [ 31%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__ODEPhysics__factories.cpp.o[0m
+[169.307s] [ 31%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__PerformanceMetrics__factories.cpp.o[0m
+[170.466s] [ 32%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__SensorPerformanceMetric__factories.cpp.o[0m
+[172.592s] [ 32%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__msg__WorldState__factories.cpp.o[0m
+[173.094s] [ 32%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__ApplyBodyWrench__factories.cpp.o[0m
+[173.458s] [ 32%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__ApplyLinkWrench__factories.cpp.o[0m
+[176.518s] [ 32%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__ApplyJointEffort__factories.cpp.o[0m
+[176.896s] [ 33%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__BodyRequest__factories.cpp.o[0m
+[178.902s] [ 33%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__DeleteEntity__factories.cpp.o[0m
+[181.188s] [ 33%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__DeleteLight__factories.cpp.o[0m
+[181.404s] [ 33%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__DeleteModel__factories.cpp.o[0m
+[184.611s] [ 34%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetJointProperties__factories.cpp.o[0m
+[186.535s] [ 34%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetEntityState__factories.cpp.o[0m
+[187.389s] [ 34%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetLightProperties__factories.cpp.o[0m
+[187.403s] [ 34%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetLinkProperties__factories.cpp.o[0m
+[188.276s] [ 35%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetLinkState__factories.cpp.o[0m
+[190.480s] [ 35%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetModelList__factories.cpp.o[0m
+[192.902s] [ 35%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetModelProperties__factories.cpp.o[0m
+[193.298s] [ 35%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetModelState__factories.cpp.o[0m
+[194.657s] [ 35%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetPhysicsProperties__factories.cpp.o[0m
+[196.672s] [ 36%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__GetWorldProperties__factories.cpp.o[0m
+[198.617s] [ 36%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__JointRequest__factories.cpp.o[0m
+[199.071s] [ 36%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__LinkRequest__factories.cpp.o[0m
+[199.228s] [ 36%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetEntityState__factories.cpp.o[0m
+[200.035s] [ 37%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetJointProperties__factories.cpp.o[0m
+[205.857s] [ 37%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetLightProperties__factories.cpp.o[0m
+[206.523s] [ 37%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetJointTrajectory__factories.cpp.o[0m
+[206.744s] [ 37%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetLinkProperties__factories.cpp.o[0m
+[207.064s] [ 38%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetLinkState__factories.cpp.o[0m
+[207.801s] [ 38%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetModelConfiguration__factories.cpp.o[0m
+[208.828s] [ 38%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetModelState__factories.cpp.o[0m
+[209.292s] [ 38%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SetPhysicsProperties__factories.cpp.o[0m
+[211.602s] [ 38%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SpawnEntity__factories.cpp.o[0m
+[213.461s] [ 39%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/gazebo_msgs__srv__SpawnModel__factories.cpp.o[0m
+[218.424s] [ 39%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs_factories.cpp.o[0m
+[218.450s] [ 39%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Accel__factories.cpp.o[0m
+[218.698s] [ 39%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__AccelStamped__factories.cpp.o[0m
+[219.682s] [ 40%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__AccelWithCovariance__factories.cpp.o[0m
+[219.789s] [ 40%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__AccelWithCovarianceStamped__factories.cpp.o[0m
+[220.788s] [ 40%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Inertia__factories.cpp.o[0m
+[220.805s] [ 40%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__InertiaStamped__factories.cpp.o[0m
+[225.655s] [ 41%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Point__factories.cpp.o[0m
+[226.594s] [ 41%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Point32__factories.cpp.o[0m
+[234.837s] [ 41%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__PointStamped__factories.cpp.o[0m
+[234.973s] [ 41%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Polygon__factories.cpp.o[0m
+[236.092s] [ 41%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__PolygonStamped__factories.cpp.o[0m
+[236.926s] [ 42%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Pose__factories.cpp.o[0m
+[237.383s] [ 42%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Pose2D__factories.cpp.o[0m
+[237.818s] [ 42%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__PoseArray__factories.cpp.o[0m
+[242.625s] [ 42%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__PoseStamped__factories.cpp.o[0m
+[243.920s] [ 43%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__PoseWithCovariance__factories.cpp.o[0m
+[256.207s] [ 43%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Twist__factories.cpp.o[0m
+[256.207s] [ 43%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__TransformStamped__factories.cpp.o[0m
+[256.310s] [ 44%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Transform__factories.cpp.o[0m
+[257.095s] [ 44%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__QuaternionStamped__factories.cpp.o[0m
+[257.100s] [ 44%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__TwistStamped__factories.cpp.o[0m
+[258.118s] [ 44%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__TwistWithCovariance__factories.cpp.o[0m
+[258.119s] [ 44%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Quaternion__factories.cpp.o[0m
+[259.138s] [ 44%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__PoseWithCovarianceStamped__factories.cpp.o[0m
+[270.989s] [ 45%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__TwistWithCovarianceStamped__factories.cpp.o[0m
+[271.440s] [ 45%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Vector3__factories.cpp.o[0m
+[271.452s] [ 45%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Vector3Stamped__factories.cpp.o[0m
+[273.257s] [ 45%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__Wrench__factories.cpp.o[0m
+[273.796s] [ 46%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/geometry_msgs__msg__WrenchStamped__factories.cpp.o[0m
+[274.790s] [ 46%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/libstatistics_collector_factories.cpp.o[0m
+[275.048s] [ 46%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/libstatistics_collector__msg__DummyMessage__factories.cpp.o[0m
+[276.341s] [ 46%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs_factories.cpp.o[0m
+[282.418s] [ 47%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs__msg__State__factories.cpp.o[0m
+[282.602s] [ 47%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs__msg__Transition__factories.cpp.o[0m
+[283.993s] [ 47%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs__msg__TransitionDescription__factories.cpp.o[0m
+[287.966s] [ 47%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs__msg__TransitionEvent__factories.cpp.o[0m
+[288.033s] [ 48%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs__srv__ChangeState__factories.cpp.o[0m
+[288.425s] [ 48%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs__srv__GetAvailableStates__factories.cpp.o[0m
+[289.639s] [ 48%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs__srv__GetAvailableTransitions__factories.cpp.o[0m
+[290.061s] [ 48%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/lifecycle_msgs__srv__GetState__factories.cpp.o[0m
+[290.174s] [ 48%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/logging_demo_factories.cpp.o[0m
+[290.782s] [ 49%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/logging_demo__srv__ConfigLogger__factories.cpp.o[0m
+[291.978s] [ 49%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs_factories.cpp.o[0m
+[295.506s] [ 49%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__msg__OccupancyGridUpdate__factories.cpp.o[0m
+[295.934s] [ 49%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__msg__PointCloud2Update__factories.cpp.o[0m
+[296.117s] [ 50%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__msg__ProjectedMapInfo__factories.cpp.o[0m
+[297.101s] [ 50%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__msg__ProjectedMap__factories.cpp.o[0m
+[297.559s] [ 50%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__srv__GetMapROI__factories.cpp.o[0m
+[297.836s] [ 50%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__srv__GetPointMapROI__factories.cpp.o[0m
+[298.395s] [ 51%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__srv__GetPointMap__factories.cpp.o[0m
+[299.829s] [ 51%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__srv__ProjectedMapsInfo__factories.cpp.o[0m
+[310.890s] [ 51%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs_factories.cpp.o[0m
+[311.187s] [ 51%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__srv__SetMapProjections__factories.cpp.o[0m
+[311.191s] [ 52%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__msg__Costmap__factories.cpp.o[0m
+[311.304s] [ 52%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__msg__CostmapMetaData__factories.cpp.o[0m
+[311.581s] [ 52%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__msg__VoxelGrid__factories.cpp.o[0m
+[312.600s] [ 52%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__msg__BehaviorTreeStatusChange__factories.cpp.o[0m
+[313.390s] [ 52%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/map_msgs__srv__SaveMap__factories.cpp.o[0m
+[314.415s] [ 53%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__msg__BehaviorTreeLog__factories.cpp.o[0m
+[318.055s] [ 53%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__msg__Particle__factories.cpp.o[0m
+[318.285s] [ 53%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__msg__ParticleCloud__factories.cpp.o[0m
+[318.308s] [ 53%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__srv__GetCostmap__factories.cpp.o[0m
+[318.551s] [ 54%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__srv__ClearCostmapExceptRegion__factories.cpp.o[0m
+[320.216s] [ 54%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__srv__ClearCostmapAroundRobot__factories.cpp.o[0m
+[321.858s] [ 54%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__srv__ClearEntireCostmap__factories.cpp.o[0m
+[322.124s] [ 54%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__srv__ManageLifecycleNodes__factories.cpp.o[0m
+[324.023s] [ 54%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__srv__LoadMap__factories.cpp.o[0m
+[325.810s] [ 55%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav2_msgs__srv__SaveMap__factories.cpp.o[0m
+[325.859s] [ 55%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_2d_msgs_factories.cpp.o[0m
+[325.923s] [ 55%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_2d_msgs__msg__Path2D__factories.cpp.o[0m
+[326.304s] [ 55%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_2d_msgs__msg__Pose2D32__factories.cpp.o[0m
+[327.821s] [ 56%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_2d_msgs__msg__Pose2DStamped__factories.cpp.o[0m
+[329.478s] [ 56%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_2d_msgs__msg__Twist2D__factories.cpp.o[0m
+[329.906s] [ 56%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_2d_msgs__msg__Twist2D32__factories.cpp.o[0m
+[331.418s] [ 56%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_2d_msgs__msg__Twist2DStamped__factories.cpp.o[0m
+[333.306s] [ 57%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs_factories.cpp.o[0m
+[333.452s] [ 57%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs__msg__GridCells__factories.cpp.o[0m
+[333.613s] [ 57%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs__msg__MapMetaData__factories.cpp.o[0m
+[333.981s] [ 57%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs__msg__OccupancyGrid__factories.cpp.o[0m
+[335.355s] [ 57%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs__msg__Odometry__factories.cpp.o[0m
+[346.722s] [ 58%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pcl_msgs_factories.cpp.o[0m
+[346.722s] [ 58%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pcl_msgs__msg__ModelCoefficients__factories.cpp.o[0m
+[346.722s] [ 58%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pcl_msgs__msg__PointIndices__factories.cpp.o[0m
+[347.736s] [ 58%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pcl_msgs__msg__PolygonMesh__factories.cpp.o[0m
+[347.740s] [ 58%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs__srv__SetMap__factories.cpp.o[0m
+[348.759s] [ 58%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs__srv__GetMap__factories.cpp.o[0m
+[348.764s] [ 58%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs__srv__GetPlan__factories.cpp.o[0m
+[349.791s] [ 59%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/nav_msgs__msg__Path__factories.cpp.o[0m
+[352.297s] [ 60%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pcl_msgs__msg__Vertices__factories.cpp.o[0m
+[359.144s] [ 60%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pcl_msgs__srv__UpdateFilename__factories.cpp.o[0m
+[360.215s] [ 60%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pendulum_msgs_factories.cpp.o[0m
+[360.306s] [ 60%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pendulum_msgs__msg__JointState__factories.cpp.o[0m
+[361.492s] [ 61%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pendulum_msgs__msg__JointCommand__factories.cpp.o[0m
+[361.921s] [ 61%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/pendulum_msgs__msg__RttestResults__factories.cpp.o[0m
+[363.921s] [ 61%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces_factories.cpp.o[0m
+[367.066s] [ 61%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__FloatingPointRange__factories.cpp.o[0m
+[367.912s] [ 61%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__IntegerRange__factories.cpp.o[0m
+[368.071s] [ 62%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__ListParametersResult__factories.cpp.o[0m
+[369.153s] [ 62%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__Log__factories.cpp.o[0m
+[369.377s] [ 62%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__ParameterDescriptor__factories.cpp.o[0m
+[369.379s] [ 62%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__ParameterEventDescriptors__factories.cpp.o[0m
+[370.334s] [ 63%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__ParameterEvent__factories.cpp.o[0m
+[375.875s] [ 64%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__SetParametersResult__factories.cpp.o[0m
+[376.041s] [ 64%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__srv__DescribeParameters__factories.cpp.o[0m
+[376.226s] [ 64%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__srv__GetParameters__factories.cpp.o[0m
+[378.245s] [ 64%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__srv__GetParameterTypes__factories.cpp.o[0m
+[380.265s] [ 64%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__ParameterValue__factories.cpp.o[0m
+[380.482s] [ 64%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__ParameterType__factories.cpp.o[0m
+[380.805s] [ 64%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__srv__ListParameters__factories.cpp.o[0m
+[381.385s] [ 65%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__srv__SetParametersAtomically__factories.cpp.o[0m
+[381.732s] [ 65%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__srv__SetParameters__factories.cpp.o[0m
+[383.763s] [ 65%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rmw_dds_common_factories.cpp.o[0m
+[384.094s] [ 65%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rcl_interfaces__msg__Parameter__factories.cpp.o[0m
+[385.650s] [ 65%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rmw_dds_common__msg__Gid__factories.cpp.o[0m
+[387.410s] [ 66%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rmw_dds_common__msg__NodeEntitiesInfo__factories.cpp.o[0m
+[387.944s] [ 66%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rmw_dds_common__msg__ParticipantEntitiesInfo__factories.cpp.o[0m
+[388.566s] [ 66%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rosgraph_msgs_factories.cpp.o[0m
+[388.858s] [ 66%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/rosgraph_msgs__msg__Clock__factories.cpp.o[0m
+[390.892s] [ 66%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__BatteryState__factories.cpp.o[0m
+[391.880s] [ 66%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__CameraInfo__factories.cpp.o[0m
+[392.901s] [ 66%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__ChannelFloat32__factories.cpp.o[0m
+[393.922s] [ 67%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs_factories.cpp.o[0m
+[394.611s] [ 67%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__CompressedImage__factories.cpp.o[0m
+[394.650s] [ 68%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__FluidPressure__factories.cpp.o[0m
+[395.638s] [ 68%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__Illuminance__factories.cpp.o[0m
+[402.570s] [ 68%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__Image__factories.cpp.o[0m
+[404.935s] [ 68%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__Imu__factories.cpp.o[0m
+[411.008s] [ 68%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__JoyFeedbackArray__factories.cpp.o[0m
+[411.564s] [ 69%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__LaserEcho__factories.cpp.o[0m
+[412.582s] [ 69%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__LaserScan__factories.cpp.o[0m
+[413.603s] [ 69%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__JoyFeedback__factories.cpp.o[0m
+[414.621s] [ 69%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__Joy__factories.cpp.o[0m
+[415.642s] [ 70%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__JointState__factories.cpp.o[0m
+[415.646s] [ 70%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__MagneticField__factories.cpp.o[0m
+[418.624s] [ 70%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__MultiDOFJointState__factories.cpp.o[0m
+[426.629s] [ 70%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__MultiEchoLaserScan__factories.cpp.o[0m
+[427.268s] [ 71%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__NavSatFix__factories.cpp.o[0m
+[429.400s] [ 71%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__NavSatStatus__factories.cpp.o[0m
+[430.183s] [ 71%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__PointCloud__factories.cpp.o[0m
+[432.746s] [ 71%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__PointCloud2__factories.cpp.o[0m
+[432.819s] [ 72%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__PointField__factories.cpp.o[0m
+[433.746s] [ 72%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__Range__factories.cpp.o[0m
+[441.134s] [ 72%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__RegionOfInterest__factories.cpp.o[0m
+[444.013s] [ 72%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__RelativeHumidity__factories.cpp.o[0m
+[444.523s] [ 73%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__Temperature__factories.cpp.o[0m
+[445.393s] [ 73%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__msg__TimeReference__factories.cpp.o[0m
+[447.542s] [ 73%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/sensor_msgs__srv__SetCameraInfo__factories.cpp.o[0m
+[449.477s] [ 73%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/shape_msgs_factories.cpp.o[0m
+[450.220s] [ 73%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/shape_msgs__msg__Mesh__factories.cpp.o[0m
+[450.723s] [ 74%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/shape_msgs__msg__MeshTriangle__factories.cpp.o[0m
+[461.208s] [ 75%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__Pause__factories.cpp.o[0m
+[461.218s] [ 75%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox_factories.cpp.o[0m
+[461.253s] [ 75%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__ClearQueue__factories.cpp.o[0m
+[462.272s] [ 75%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__ToggleInteractive__factories.cpp.o[0m
+[463.291s] [ 75%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/shape_msgs__msg__SolidPrimitive__factories.cpp.o[0m
+[464.150s] [ 75%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/shape_msgs__msg__Plane__factories.cpp.o[0m
+[464.855s] [ 75%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__Clear__factories.cpp.o[0m
+[465.879s] [ 76%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__SaveMap__factories.cpp.o[0m
+[467.892s] [ 76%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__LoopClosure__factories.cpp.o[0m
+[468.470s] [ 76%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__MergeMaps__factories.cpp.o[0m
+[468.545s] [ 76%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__AddSubmap__factories.cpp.o[0m
+[469.650s] [ 77%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__DeserializePoseGraph__factories.cpp.o[0m
+[472.703s] [ 77%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/slam_toolbox__srv__SerializePoseGraph__factories.cpp.o[0m
+[473.610s] [ 77%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/statistics_msgs_factories.cpp.o[0m
+[475.530s] [ 77%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/statistics_msgs__msg__MetricsMessage__factories.cpp.o[0m
+[475.867s] [ 77%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/statistics_msgs__msg__StatisticDataPoint__factories.cpp.o[0m
+[481.185s] [ 77%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__ColorRGBA__factories.cpp.o[0m
+[482.196s] [ 77%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Empty__factories.cpp.o[0m
+[483.207s] [ 77%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Char__factories.cpp.o[0m
+[484.219s] [ 78%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__ByteMultiArray__factories.cpp.o[0m
+[485.237s] [ 78%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Byte__factories.cpp.o[0m
+[486.256s] [ 78%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs_factories.cpp.o[0m
+[486.257s] [ 78%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Bool__factories.cpp.o[0m
+[487.278s] [ 79%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/statistics_msgs__msg__StatisticDataType__factories.cpp.o[0m
+[493.145s] [ 80%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Float32__factories.cpp.o[0m
+[493.990s] [ 80%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Float32MultiArray__factories.cpp.o[0m
+[494.849s] [ 80%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Float64__factories.cpp.o[0m
+[495.338s] [ 80%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Float64MultiArray__factories.cpp.o[0m
+[497.822s] [ 80%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Header__factories.cpp.o[0m
+[499.988s] [ 81%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Int16__factories.cpp.o[0m
+[501.790s] [ 81%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Int16MultiArray__factories.cpp.o[0m
+[502.848s] [ 81%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Int32__factories.cpp.o[0m
+[510.333s] [ 81%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Int32MultiArray__factories.cpp.o[0m
+[511.167s] [ 82%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Int64__factories.cpp.o[0m
+[511.312s] [ 82%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Int64MultiArray__factories.cpp.o[0m
+[512.752s] [ 82%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Int8__factories.cpp.o[0m
+[514.725s] [ 82%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__Int8MultiArray__factories.cpp.o[0m
+[516.669s] [ 83%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__MultiArrayDimension__factories.cpp.o[0m
+[519.125s] [ 83%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__MultiArrayLayout__factories.cpp.o[0m
+[519.923s] [ 83%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__String__factories.cpp.o[0m
+[531.337s] [ 83%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__UInt64__factories.cpp.o[0m
+[531.621s] [ 83%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__UInt32MultiArray__factories.cpp.o[0m
+[532.637s] [ 83%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__UInt64MultiArray__factories.cpp.o[0m
+[532.888s] [ 84%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__UInt32__factories.cpp.o[0m
+[533.595s] [ 85%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__UInt8__factories.cpp.o[0m
+[534.612s] [ 85%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__UInt8MultiArray__factories.cpp.o[0m
+[535.630s] [ 85%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__UInt16MultiArray__factories.cpp.o[0m
+[536.652s] [ 85%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_msgs__msg__UInt16__factories.cpp.o[0m
+[545.447s] [ 85%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_srvs_factories.cpp.o[0m
+[547.038s] [ 85%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_srvs__srv__Empty__factories.cpp.o[0m
+[547.384s] [ 86%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_srvs__srv__SetBool__factories.cpp.o[0m
+[548.635s] [ 86%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/std_srvs__srv__Trigger__factories.cpp.o[0m
+[549.298s] [ 86%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/stereo_msgs_factories.cpp.o[0m
+[551.427s] [ 86%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/stereo_msgs__msg__DisparityImage__factories.cpp.o[0m
+[552.978s] [ 86%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs_factories.cpp.o[0m
+[553.429s] [ 87%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__Arrays__factories.cpp.o[0m
+[554.521s] [ 87%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__BasicTypes__factories.cpp.o[0m
+[557.074s] [ 87%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__BoundedSequences__factories.cpp.o[0m
+[557.888s] [ 87%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__Constants__factories.cpp.o[0m
+[558.132s] [ 88%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__Defaults__factories.cpp.o[0m
+[559.673s] [ 88%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__Empty__factories.cpp.o[0m
+[560.717s] [ 88%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__MultiNested__factories.cpp.o[0m
+[561.241s] [ 88%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__Nested__factories.cpp.o[0m
+[562.375s] [ 89%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__Strings__factories.cpp.o[0m
+[564.473s] [ 89%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__UnboundedSequences__factories.cpp.o[0m
+[565.371s] [ 89%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__WStrings__factories.cpp.o[0m
+[565.686s] [ 89%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__srv__Arrays__factories.cpp.o[0m
+[570.755s] [ 89%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/tf2_msgs__srv__FrameGraph__factories.cpp.o[0m
+[571.766s] [ 90%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/trajectory_msgs_factories.cpp.o[0m
+[571.766s] [ 90%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/tf2_msgs__msg__TFMessage__factories.cpp.o[0m
+[572.779s] [ 90%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/tf2_msgs__msg__TF2Error__factories.cpp.o[0m
+[572.784s] [ 90%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/tf2_msgs_factories.cpp.o[0m
+[573.803s] [ 90%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__msg__Builtins__factories.cpp.o[0m
+[573.803s] [ 90%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__srv__Empty__factories.cpp.o[0m
+[574.825s] [ 91%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/test_msgs__srv__BasicTypes__factories.cpp.o[0m
+[577.770s] [ 91%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/trajectory_msgs__msg__JointTrajectory__factories.cpp.o[0m
+[578.802s] [ 92%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/trajectory_msgs__msg__JointTrajectoryPoint__factories.cpp.o[0m
+[580.257s] [ 92%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/trajectory_msgs__msg__MultiDOFJointTrajectory__factories.cpp.o[0m
+[581.323s] [ 92%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/trajectory_msgs__msg__MultiDOFJointTrajectoryPoint__factories.cpp.o[0m
+[581.355s] [ 92%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlebot3_msgs_factories.cpp.o[0m
+[582.409s] [ 93%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlebot3_msgs__msg__SensorState__factories.cpp.o[0m
+[587.344s] [ 93%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlebot3_msgs__msg__Sound__factories.cpp.o[0m
+[587.976s] [ 93%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlebot3_msgs__msg__VersionInfo__factories.cpp.o[0m
+[589.043s] [ 93%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlebot3_msgs__srv__Sound__factories.cpp.o[0m
+[595.024s] [ 93%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlebot3_msgs__srv__Dqn__factories.cpp.o[0m
+[595.866s] [ 94%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlesim_factories.cpp.o[0m
+[596.703s] [ 94%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlesim__msg__Color__factories.cpp.o[0m
+[597.884s] [ 94%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlesim__msg__Pose__factories.cpp.o[0m
+[598.812s] [ 94%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlesim__srv__Kill__factories.cpp.o[0m
+[599.130s] [ 95%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlesim__srv__SetPen__factories.cpp.o[0m
+[602.900s] [ 95%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlesim__srv__Spawn__factories.cpp.o[0m
+[603.733s] [ 95%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlesim__srv__TeleportAbsolute__factories.cpp.o[0m
+[604.103s] [ 95%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/turtlesim__srv__TeleportRelative__factories.cpp.o[0m
+[604.360s] [ 96%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/unique_identifier_msgs_factories.cpp.o[0m
+[604.724s] [ 96%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/unique_identifier_msgs__msg__UUID__factories.cpp.o[0m
+[605.467s] [ 96%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs_factories.cpp.o[0m
+[609.436s] [ 96%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__ImageMarker__factories.cpp.o[0m
+[609.871s] [ 96%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__InteractiveMarker__factories.cpp.o[0m
+[616.266s] [ 96%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__InteractiveMarkerPose__factories.cpp.o[0m
+[616.270s] [ 97%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__InteractiveMarkerUpdate__factories.cpp.o[0m
+[617.290s] [ 97%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__InteractiveMarkerInit__factories.cpp.o[0m
+[618.291s] [ 97%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__InteractiveMarkerFeedback__factories.cpp.o[0m
+[618.291s] [ 98%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__InteractiveMarkerControl__factories.cpp.o[0m
+[619.312s] [ 98%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__Marker__factories.cpp.o[0m
+[624.057s] [ 98%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__MarkerArray__factories.cpp.o[0m
+[624.938s] [ 98%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__msg__MenuEntry__factories.cpp.o[0m
+[631.642s] [ 99%] [32mBuilding CXX object CMakeFiles/ros1_bridge.dir/generated/visualization_msgs__srv__GetInteractiveMarkers__factories.cpp.o[0m
+[638.858s] [ 99%] [32m[1mLinking CXX shared library libros1_bridge.so[0m
+[722.395s] [ 99%] Built target ros1_bridge
+[722.408s] [35m[1mScanning dependencies of target dynamic_bridge[0m
+[722.408s] [35m[1mScanning dependencies of target static_bridge[0m
+[722.408s] [35m[1mScanning dependencies of target parameter_bridge[0m
+[722.465s] [ 99%] [32mBuilding CXX object CMakeFiles/parameter_bridge.dir/src/parameter_bridge.cpp.o[0m
+[722.470s] [ 99%] [32mBuilding CXX object CMakeFiles/dynamic_bridge.dir/src/dynamic_bridge.cpp.o[0m
+[722.472s] [ 99%] [32mBuilding CXX object CMakeFiles/static_bridge.dir/src/static_bridge.cpp.o[0m
+[726.518s] [100%] [32m[1mLinking CXX executable static_bridge[0m
+[726.768s] [100%] [32m[1mLinking CXX executable parameter_bridge[0m
+[728.383s] [100%] [32m[1mLinking CXX executable dynamic_bridge[0m
+[802.150s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+[802.151s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+[802.151s] collect2: error: ld returned 1 exit status
+[802.153s] make[2]: *** [CMakeFiles/static_bridge.dir/build.make:448: static_bridge] Error 1
+[802.153s] make[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/static_bridge.dir/all] Error 2
+[802.153s] make[1]: *** Waiting for unfinished jobs....
+[802.859s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+[802.859s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+[802.859s] collect2: error: ld returned 1 exit status
+[802.861s] make[2]: *** [CMakeFiles/parameter_bridge.dir/build.make:448: parameter_bridge] Error 1
+[802.861s] make[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/parameter_bridge.dir/all] Error 2
+[804.169s] /usr/bin/ld: warning: libconsole_bridge.so.0.4, needed by /opt/ros/noetic/lib/libcpp_common.so, may conflict with libconsole_bridge.so.1.0
+[804.169s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_1_to_2(controller_manager_msgs::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::msg::ControllerState_<std::allocator<void> >&)'
+[804.170s] /usr/bin/ld: libros1_bridge.so: undefined reference to `ros1_bridge::Factory<controller_manager_msgs::ControllerState_<std::allocator<void> >, controller_manager_msgs::msg::ControllerState_<std::allocator<void> > >::convert_2_to_1(controller_manager_msgs::msg::ControllerState_<std::allocator<void> > const&, controller_manager_msgs::ControllerState_<std::allocator<void> >&)'
+[804.170s] collect2: error: ld returned 1 exit status
+[804.171s] make[2]: *** [CMakeFiles/dynamic_bridge.dir/build.make:448: dynamic_bridge] Error 1
+[804.171s] make[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/dynamic_bridge.dir/all] Error 2
+[804.172s] make: *** [Makefile:141: all] Error 2
+[804.176s] Invoked command in '/home/yonathanarya/colcon_ws/build/ros1_bridge' returned '2': CMAKE_PREFIX_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces:/home/yonathanarya/colcon_ws/install/raspimouse_description:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy:/opt/ros/noetic:/home/yonathanarya/colcon_ws/install/turtlebot3_simulations:/home/yonathanarya/colcon_ws/install/turtlebot3_gazebo:/home/yonathanarya/colcon_ws/install/turtlebot3_fake_node LD_LIBRARY_PATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_act_interfaces/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/build/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/build/turtlebot3_action:/opt/ros/noetic/lib/python3/dist-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:/home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/ros1_bridge -- -j8 -l8

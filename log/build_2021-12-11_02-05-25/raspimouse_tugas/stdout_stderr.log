@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/PKG-INFO
+writing dependency_links to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/dependency_links.txt
+writing entry points to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/entry_points.txt
+writing requirements to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/requires.txt
+writing top-level names to ../../build/raspimouse_tugas/raspimouse_tugas.egg-info/top_level.txt
+reading manifest file '../../build/raspimouse_tugas/raspimouse_tugas.egg-info/SOURCES.txt'
+writing manifest file '../../build/raspimouse_tugas/raspimouse_tugas.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying rviz/odom.rviz -> /home/yonathanarya/colcon_ws/install/raspimouse_tugas/share/raspimouse_tugas
+running install_egg_info
+removing '/home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages/raspimouse_tugas-1.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/raspimouse_tugas/raspimouse_tugas.egg-info to /home/yonathanarya/colcon_ws/install/raspimouse_tugas/lib/python3.8/site-packages/raspimouse_tugas-1.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/yonathanarya/colcon_ws/build/raspimouse_tugas/install.log'

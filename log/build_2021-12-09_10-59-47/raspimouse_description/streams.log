@@ -1,0 +1,80 @@
+[0.055s] Invoking command in '/home/yonathanarya/colcon_ws/build/raspimouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake /home/yonathanarya/colcon_ws/src/raspimouse_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/raspimouse_description
+[1.320s] -- The C compiler identification is GNU 9.3.0
+[1.320s] -- The CXX compiler identification is GNU 9.3.0
+[1.320s] -- Check for working C compiler: /usr/bin/cc
+[1.320s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.320s] -- Detecting C compiler ABI info
+[1.321s] -- Detecting C compiler ABI info - done
+[1.321s] -- Detecting C compile features
+[1.321s] -- Detecting C compile features - done
+[1.323s] -- Check for working CXX compiler: /usr/bin/c++
+[1.324s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.325s] -- Detecting CXX compiler ABI info
+[1.325s] -- Detecting CXX compiler ABI info - done
+[1.325s] -- Detecting CXX compile features
+[1.325s] -- Detecting CXX compile features - done
+[1.326s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.326s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.326s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.326s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.326s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.460s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.481s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.482s] -- Added test 'lint_cmake' to check CMake code style
+[1.482s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.489s] -- Added test 'xmllint' to check XML markup files
+[1.494s] -- Configuring done
+[1.498s] -- Generating done
+[1.501s] -- Build files have been written to: /home/yonathanarya/colcon_ws/build/raspimouse_description
+[1.514s] Invoked command in '/home/yonathanarya/colcon_ws/build/raspimouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake /home/yonathanarya/colcon_ws/src/raspimouse_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yonathanarya/colcon_ws/install/raspimouse_description
+[1.517s] Invoking command in '/home/yonathanarya/colcon_ws/build/raspimouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/raspimouse_description -- -j8 -l8
+[1.895s] Invoked command in '/home/yonathanarya/colcon_ws/build/raspimouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/raspimouse_description -- -j8 -l8
+[2.023s] Invoking command in '/home/yonathanarya/colcon_ws/build/raspimouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --install /home/yonathanarya/colcon_ws/build/raspimouse_description
+[2.380s] -- Install configuration: ""
+[2.381s] -- Execute custom install script
+[2.382s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//launch/config/urdf.rviz
+[2.383s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//launch/display.launch.py
+[2.384s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_TopPlate.dae
+[2.384s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body-TopPlate-URG.dae
+[2.385s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body-TopPlate.dae
+[2.385s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body.dae
+[2.387s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/sensor/URG.dae
+[2.387s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/sensor/URG_center.dae
+[2.388s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/wheel/RasPiMouse_wheel.dae
+[2.388s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_TopPlate.stl
+[2.389s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_base-metric.stl
+[2.391s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_sensor-metric.stl
+[2.392s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_wheel-metric.stl
+[2.392s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_wheel-mm.stl
+[2.393s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/URG-04LX-UG01.stl
+[2.393s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_black.stl
+[2.393s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_gray.stl
+[2.396s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_green.stl
+[2.396s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_red.stl
+[2.408s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_wheel_black.stl
+[2.423s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_wheel_gray.stl
+[2.436s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/body/body.urdf.xacro
+[2.452s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/common.xacro
+[2.470s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/raspimouse.urdf.xacro
+[2.483s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lightsens.gazebo.xacro
+[2.498s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lightsens.urdf.xacro
+[2.515s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lrf.gazebo.xacro
+[2.527s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lrf.urdf.xacro
+[2.539s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/wheel/diffdrive.gazebo.xacro
+[2.550s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/wheel/wheel.urdf.xacro
+[2.562s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/package_run_dependencies/raspimouse_description
+[2.574s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/parent_prefix_path/raspimouse_description
+[2.586s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/ament_prefix_path.sh
+[2.598s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/ament_prefix_path.dsv
+[2.609s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/path.sh
+[2.621s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/path.dsv
+[2.633s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.bash
+[2.646s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.sh
+[2.659s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.zsh
+[2.671s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.dsv
+[2.683s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/package.dsv
+[2.699s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/packages/raspimouse_description
+[2.715s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/cmake/raspimouse_descriptionConfig.cmake
+[2.730s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/cmake/raspimouse_descriptionConfig-version.cmake
+[2.744s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/package.xml
+[2.763s] Invoked command in '/home/yonathanarya/colcon_ws/build/raspimouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --install /home/yonathanarya/colcon_ws/build/raspimouse_description

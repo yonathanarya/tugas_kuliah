@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtlebot3_action.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_action.egg-info/dependency_links.txt
+writing entry points to turtlebot3_action.egg-info/entry_points.txt
+writing requirements to turtlebot3_action.egg-info/requires.txt
+writing top-level names to turtlebot3_action.egg-info/top_level.txt
+reading manifest file 'turtlebot3_action.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_action.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/python3.8/site-packages/turtlebot3-action.egg-link (link to .)
+Installing turtlebot3_patrol_client script to /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/turtlebot3_action
+Installing turtlebot3_patrol_server script to /home/yonathanarya/colcon_ws/install/turtlebot3_action/lib/turtlebot3_action
+
+Installed /home/yonathanarya/colcon_ws/build/turtlebot3_action
+running install_data

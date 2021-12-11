@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yonathanarya/colcon_ws/build/turtlebot3_act_interfaces/rosidl_generator_py/turtlebot3_act_interfaces/libturtlebot3_act_interfaces__python.so" "TARGETS" "turtlebot3_act_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

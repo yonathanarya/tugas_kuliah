@@ -1,0 +1,50 @@
+[0.143s] Invoking command in '/home/yonathanarya/colcon_ws/build/raspimouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/raspimouse_description -- -j8 -l8
+[2.225s] Invoked command in '/home/yonathanarya/colcon_ws/build/raspimouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --build /home/yonathanarya/colcon_ws/build/raspimouse_description -- -j8 -l8
+[2.454s] Invoking command in '/home/yonathanarya/colcon_ws/build/raspimouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yonathanarya/colcon_ws/install/turtlebot3_infiniteloop:/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver:/home/yonathanarya/colcon_ws/install/turtlebot3_action:/opt/ros/foxy /usr/bin/cmake --install /home/yonathanarya/colcon_ws/build/raspimouse_description
+[2.524s] -- Install configuration: ""
+[2.525s] -- Execute custom install script
+[2.526s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//launch/config/urdf.rviz
+[2.529s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//launch/display.launch.py
+[2.529s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_TopPlate.dae
+[2.529s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body-TopPlate-URG.dae
+[2.529s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body-TopPlate.dae
+[2.530s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/body/RasPiMouse_body.dae
+[2.530s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/sensor/URG.dae
+[2.530s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/sensor/URG_center.dae
+[2.530s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/dae/wheel/RasPiMouse_wheel.dae
+[2.530s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_TopPlate.stl
+[2.540s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_base-metric.stl
+[2.541s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_sensor-metric.stl
+[2.541s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_wheel-metric.stl
+[2.541s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/RasPiMouse_wheel-mm.stl
+[2.541s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/URG-04LX-UG01.stl
+[2.542s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_black.stl
+[2.544s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_gray.stl
+[2.544s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_green.stl
+[2.544s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_body_red.stl
+[2.544s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_wheel_black.stl
+[2.545s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//meshes/stl/color/RasPiMouse_wheel_gray.stl
+[2.545s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/body/body.urdf.xacro
+[2.545s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/common.xacro
+[2.547s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/raspimouse.urdf.xacro
+[2.547s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lightsens.gazebo.xacro
+[2.547s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lightsens.urdf.xacro
+[2.547s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lrf.gazebo.xacro
+[2.548s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/sensors/lrf.urdf.xacro
+[2.548s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/wheel/diffdrive.gazebo.xacro
+[2.574s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description//urdf/wheel/wheel.urdf.xacro
+[2.575s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/package_run_dependencies/raspimouse_description
+[2.575s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/parent_prefix_path/raspimouse_description
+[2.577s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/ament_prefix_path.sh
+[2.578s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/ament_prefix_path.dsv
+[2.579s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/path.sh
+[2.579s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/environment/path.dsv
+[2.580s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.bash
+[2.589s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.sh
+[2.590s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.zsh
+[2.591s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/local_setup.dsv
+[2.591s] -- Symlinking: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/package.dsv
+[2.673s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/ament_index/resource_index/packages/raspimouse_description
+[2.678s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/cmake/raspimouse_descriptionConfig.cmake
+[2.689s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/cmake/raspimouse_descriptionConfig-version.cmake
+[2.690s] -- Up-to-date symlink: /home/yonathanarya/colcon_ws/install/raspimouse_description/share/raspimouse_description/package.xml

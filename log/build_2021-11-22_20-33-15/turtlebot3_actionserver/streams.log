@@ -1,0 +1,22 @@
+[0.768s] Invoking command in '/home/yonathanarya/colcon_ws/src/turtlebot3_actionserver': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_actionserver build --build-base /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build install --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver --record /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/install.log --single-version-externally-managed
+[1.076s] running egg_info
+[1.076s] writing ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/PKG-INFO
+[1.077s] writing dependency_links to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/dependency_links.txt
+[1.077s] writing entry points to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/entry_points.txt
+[1.078s] writing requirements to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/requires.txt
+[1.078s] writing top-level names to ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/top_level.txt
+[1.133s] reading manifest file '../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/SOURCES.txt'
+[1.135s] writing manifest file '../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info/SOURCES.txt'
+[1.135s] running build
+[1.135s] running build_py
+[1.136s] running install
+[1.137s] running install_lib
+[1.140s] running install_data
+[1.141s] running install_egg_info
+[1.143s] removing '/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver-1.0.0-py3.8.egg-info' (and everything under it)
+[1.143s] Copying ../../build/turtlebot3_actionserver/turtlebot3_actionserver.egg-info to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages/turtlebot3_actionserver-1.0.0-py3.8.egg-info
+[1.144s] running install_scripts
+[1.166s] Installing turtlebot3_client script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+[1.167s] Installing turtlebot3_server script to /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/turtlebot3_actionserver
+[1.167s] writing list of installed files to '/home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/install.log'
+[1.197s] Invoked command in '/home/yonathanarya/colcon_ws/src/turtlebot3_actionserver' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlebot3_actionserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_actionserver build --build-base /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/build install --prefix /home/yonathanarya/colcon_ws/install/turtlebot3_actionserver --record /home/yonathanarya/colcon_ws/build/turtlebot3_actionserver/install.log --single-version-externally-managed

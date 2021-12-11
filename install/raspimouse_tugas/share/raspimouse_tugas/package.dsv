@@ -1,0 +1,6 @@
+source;share/raspimouse_tugas/hook/pythonpath.ps1
+source;share/raspimouse_tugas/hook/pythonpath.dsv
+source;share/raspimouse_tugas/hook/pythonpath.sh
+source;share/raspimouse_tugas/hook/ament_prefix_path.ps1
+source;share/raspimouse_tugas/hook/ament_prefix_path.dsv
+source;share/raspimouse_tugas/hook/ament_prefix_path.sh
