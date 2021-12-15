@@ -1,0 +1,5 @@
+  File "/home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/client_polygon.py", line 66
+    for _ in range i:
+                   ^
+SyntaxError: invalid syntax
+

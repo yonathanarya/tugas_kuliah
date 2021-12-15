@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/entry_points.txt
+writing requirements to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/requires.txt
+writing top-level names to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/top_level.txt
+reading manifest file '../../build/turtlesim_polygon/turtlesim_polygon.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlesim_polygon/turtlesim_polygon.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtlesim_polygon/client_polygon.py -> /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon
+running install
+running install_lib
+copying /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon/client_polygon.py -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon
+byte-compiling /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/client_polygon.py to client_polygon.cpython-38.pyc
+  File "/home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/client_polygon.py", line 66
+    for _ in range i:
+                   ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon-1.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/turtlesim_polygon/turtlesim_polygon.egg-info to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon-1.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/turtlesim_polygon
+Installing server script to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/turtlesim_polygon
+writing list of installed files to '/home/yonathanarya/colcon_ws/build/turtlesim_polygon/install.log'

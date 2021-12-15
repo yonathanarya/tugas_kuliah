@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/turtlesim_polygon/turtlesim_polygon.egg-info
+writing ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/entry_points.txt
+writing requirements to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/requires.txt
+writing top-level names to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/top_level.txt
+writing manifest file '../../build/turtlesim_polygon/turtlesim_polygon.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlesim_polygon/turtlesim_polygon.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlesim_polygon/turtlesim_polygon.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build
+creating /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib
+creating /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon
+copying turtlesim_polygon/__init__.py -> /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon
+copying turtlesim_polygon/server.py -> /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon
+copying turtlesim_polygon/client.py -> /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon
+copying turtlesim_polygon/server_polygon.py -> /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon
+copying turtlesim_polygon/client_polygon.py -> /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon
+running install
+running install_lib
+creating /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon
+copying /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon/__init__.py -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon
+copying /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon/server.py -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon
+copying /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon/client.py -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon
+copying /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon/server_polygon.py -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon
+copying /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon/client_polygon.py -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon
+byte-compiling /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/server.py to server.cpython-38.pyc
+byte-compiling /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/client.py to client.cpython-38.pyc
+byte-compiling /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/server_polygon.py to server_polygon.cpython-38.pyc
+byte-compiling /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/client_polygon.py to client_polygon.cpython-38.pyc
+running install_data
+creating /home/yonathanarya/colcon_ws/install/turtlesim_polygon/share/ament_index
+creating /home/yonathanarya/colcon_ws/install/turtlesim_polygon/share/ament_index/resource_index
+creating /home/yonathanarya/colcon_ws/install/turtlesim_polygon/share/ament_index/resource_index/packages
+copying resource/turtlesim_polygon -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/share/ament_index/resource_index/packages
+copying package.xml -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/share/turtlesim_polygon
+running install_egg_info
+Copying ../../build/turtlesim_polygon/turtlesim_polygon.egg-info to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon-1.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/turtlesim_polygon
+Installing server script to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/turtlesim_polygon
+writing list of installed files to '/home/yonathanarya/colcon_ws/build/turtlesim_polygon/install.log'

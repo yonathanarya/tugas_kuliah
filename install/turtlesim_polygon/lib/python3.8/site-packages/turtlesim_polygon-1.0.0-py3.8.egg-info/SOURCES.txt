@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/turtlesim_polygon/turtlesim_polygon.egg-info/PKG-INFO
+../../build/turtlesim_polygon/turtlesim_polygon.egg-info/SOURCES.txt
+../../build/turtlesim_polygon/turtlesim_polygon.egg-info/dependency_links.txt
+../../build/turtlesim_polygon/turtlesim_polygon.egg-info/entry_points.txt
+../../build/turtlesim_polygon/turtlesim_polygon.egg-info/requires.txt
+../../build/turtlesim_polygon/turtlesim_polygon.egg-info/top_level.txt
+../../build/turtlesim_polygon/turtlesim_polygon.egg-info/zip-safe
+launch/polygon_442391.py
+resource/turtlesim_polygon
+turtlesim_polygon/__init__.py
+turtlesim_polygon/client.py

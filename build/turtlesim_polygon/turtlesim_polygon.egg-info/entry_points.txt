@@ -1,0 +1,3 @@
+[console_scripts]
+client = turtlesim_polygon.client:main
+

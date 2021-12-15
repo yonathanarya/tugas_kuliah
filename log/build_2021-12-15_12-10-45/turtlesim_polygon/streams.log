@@ -1,0 +1,25 @@
+[0.264s] Invoking command in '/home/yonathanarya/colcon_ws/src/turtlesim_polygon': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_polygon build --build-base /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build install --prefix /home/yonathanarya/colcon_ws/install/turtlesim_polygon --record /home/yonathanarya/colcon_ws/build/turtlesim_polygon/install.log --single-version-externally-managed
+[0.493s] running egg_info
+[0.494s] writing ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/PKG-INFO
+[0.494s] writing dependency_links to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/dependency_links.txt
+[0.495s] writing entry points to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/entry_points.txt
+[0.495s] writing requirements to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/requires.txt
+[0.495s] writing top-level names to ../../build/turtlesim_polygon/turtlesim_polygon.egg-info/top_level.txt
+[0.531s] reading manifest file '../../build/turtlesim_polygon/turtlesim_polygon.egg-info/SOURCES.txt'
+[0.532s] writing manifest file '../../build/turtlesim_polygon/turtlesim_polygon.egg-info/SOURCES.txt'
+[0.532s] running build
+[0.532s] running build_py
+[0.532s] copying turtlesim_polygon/client_polygon.py -> /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon
+[0.532s] running install
+[0.533s] running install_lib
+[0.534s] copying /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build/lib/turtlesim_polygon/client_polygon.py -> /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon
+[0.535s] byte-compiling /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon/client_polygon.py to client_polygon.cpython-38.pyc
+[0.536s] running install_data
+[0.537s] running install_egg_info
+[0.539s] removing '/home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon-1.0.0-py3.8.egg-info' (and everything under it)
+[0.539s] Copying ../../build/turtlesim_polygon/turtlesim_polygon.egg-info to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages/turtlesim_polygon-1.0.0-py3.8.egg-info
+[0.540s] running install_scripts
+[0.557s] Installing client script to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/turtlesim_polygon
+[0.558s] Installing server script to /home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/turtlesim_polygon
+[0.558s] writing list of installed files to '/home/yonathanarya/colcon_ws/build/turtlesim_polygon/install.log'
+[0.578s] Invoked command in '/home/yonathanarya/colcon_ws/src/turtlesim_polygon' returned '0': PYTHONPATH=/home/yonathanarya/colcon_ws/install/turtlesim_polygon/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_polygon build --build-base /home/yonathanarya/colcon_ws/build/turtlesim_polygon/build install --prefix /home/yonathanarya/colcon_ws/install/turtlesim_polygon --record /home/yonathanarya/colcon_ws/build/turtlesim_polygon/install.log --single-version-externally-managed
